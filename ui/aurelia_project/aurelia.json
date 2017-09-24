@@ -73,27 +73,13 @@
             "env": "dev"
           },
           "text",
-          // jquery only requires one file, so we just type the name of the npm module
           "jquery",        
-          // bootstrap is a bit more complicated, so we need a configuration object
           {
-
-            // the name of the package we will import in our application
             "name": "bootstrap",
-
-            // the base path that we will use to load files for this package
             "path": "../node_modules/bootstrap/dist",
-
-            // the main file to be imported when using `import 'bootstrap';`
             "main": "js/bootstrap.min",
-
-            // files that this package depends on, which should be loaded first
             "deps": ["jquery"],
-
             "exports": "$",
-
-            // other files that will need to be included in the bundle, which, in this
-            // case, is the bootstrap css file
             "resources": [
               "css/bootstrap.css"
             ]
