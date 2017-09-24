@@ -96,12 +96,12 @@
           "node_modules/bootstrap/dist/fonts/glyphicon-halflings-regular.woff2": "bootstrap/fonts",
           "node_modules/bootstrap/dist/fonts/glyphicon-halflings-regular.woff": "bootstrap/fonts",
           "node_modules/bootstrap/dist/fonts/glyphicon-halflings-regular.ttf": "bootstrap/fonts",
-          "node_modules/fontawesome/fonts/fontawesome-webfont.eot" : "font-awesome/fonts",
-          "node_modules/fontawesome/fonts/fontawesome-webfont.svg" : "font-awesome/fonts",
-          "node_modules/fontawesome/fonts/fontawesome-webfont.ttf" : "font-awesome/fonts",
-          "node_modules/fontawesome/fonts/fontawesome-webfont.woff" : "font-awesome/fonts",
-          "node_modules/fontawesome/fonts/fontawesome-webfont.woff2" : "font-awesome/fonts",
-          "node_modules/fontawesome/fonts/FontAwesome.otf" : "font-awesome/fonts"
+          "node_modules/font-awesome/fonts/fontawesome-webfont.eot" : "font-awesome/fonts",
+          "node_modules/font-awesome/fonts/fontawesome-webfont.svg" : "font-awesome/fonts",
+          "node_modules/font-awesome/fonts/fontawesome-webfont.ttf" : "font-awesome/fonts",
+          "node_modules/font-awesome/fonts/fontawesome-webfont.woff" : "font-awesome/fonts",
+          "node_modules/font-awesome/fonts/fontawesome-webfont.woff2" : "font-awesome/fonts",
+          "node_modules/font-awesome/fonts/FontAwesome.otf" : "font-awesome/fonts"
         }
       }
     ],
