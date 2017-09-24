@@ -84,7 +84,12 @@
               "css/bootstrap.css"
             ]
           }
-        ]
+        ],
+        "copyFiles": {
+          "node_modules/bootstrap/dist/fonts/glyphicon-halflings-regular.woff2": "bootstrap/fonts",
+          "node_modules/bootstrap/dist/fonts/glyphicon-halflings-regular.woff": "bootstrap/fonts",
+          "node_modules/bootstrap/dist/fonts/glyphicon-halflings-regular.ttf": "bootstrap/fonts"
+        }
       }
     ],
     "loader": {
