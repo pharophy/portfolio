@@ -2,7 +2,9 @@ import personContext from 'models/person';
 import navigationLinkContext from 'models/navigation-link';
 export class App {
   constructor() {
-    this.message = 'Hello World!';
-    //TODO: save font-awesome as dependency npm install font-awesome --save
+    this.personContext = personContext;
+    this.navigationLinkContext = navigationLinkContext;
+    this.person = {};
+    this.navigationLinks = [];
   }
 }
