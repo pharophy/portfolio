@@ -1,3 +1,5 @@
+import personContext from 'models/person';
+import navigationLinkContext from 'models/navigation-link';
 export class App {
   constructor() {
     this.message = 'Hello World!';
