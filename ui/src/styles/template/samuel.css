@@ -1,9 +1,12 @@
 /* Main Photo */
-.photo-01 {
-  max-height: 100%; 
-  max-width: 100%;
-  padding: 0;
+.photo-primary {
+  padding:0;
+  height:360px;
 }
+
+  .photo-primary img { 
+    width: 100%;
+  }
 
 /* Timeline */
 .timeline-samuel-01,
