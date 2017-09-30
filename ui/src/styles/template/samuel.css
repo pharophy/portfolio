@@ -1,10 +1,9 @@
 /* Main Photo */
 .photo-01 {
-  background: url("../../images/layouts/samuel/userpics/userpic01.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 360px; }
+  max-height: 100%; 
+  max-width: 100%;
+  padding: 0;
+}
 
 /* Timeline */
 .timeline-samuel-01,
