@@ -10,8 +10,7 @@ export default class Person {
     return new Person(
       'Shawn',
       'Souto',
-      'http://link.to/resume.pdf',
-      'http://link.to/image.jpg',
+      '/src/assets/images/shawn-souto.jpg',
       0
     );
   }
