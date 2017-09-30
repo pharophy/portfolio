@@ -8,10 +8,12 @@ export default class Person {
   }
 
   static getPerson(id) {
-    return {
-      firstName: 'Shawn',
-      lastName: 'Souto',
-      resumeLink: 'http://link.to/resume.pdf'
-    };
+    return new Person(
+      'Shawn',
+      'Souto',
+      'http://link.to/resume.pdf',
+      'http://link.to/image.jpg',
+      0
+    );
   }
 }
