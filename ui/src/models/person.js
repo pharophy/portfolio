@@ -1,9 +1,10 @@
 export default class Person {
-  constructor(id = 0, firstName, lastName, resumeLink) {
+  constructor(firstName, lastName, resumeLink, imageUrl, id = 0) {
     this.id = id;
     this.firstName = firstName;
     this.lastName = lastName;
     this.resumeLink = resumeLink;
+    this.imageUrl = imageUrl;
   }
 
   static getPerson(id) {
