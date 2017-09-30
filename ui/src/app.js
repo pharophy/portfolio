@@ -14,4 +14,14 @@ export class App {
     //this.skills = _(this.navigationLinks).find(n => n.type === 'skill');
     this.resumeLink = this.navigationLinks[7]; //TODO: when inet access, import lodash and change to _(this.navigationLinks).find(n => n.type === 'attachment');
   }
+
+  configureRouter(config, router) {
+    config.title = 'Resume';
+    config.map([
+      { route: 'page/:path',              moduleId: 'components/page',   title: 'About'}//,
+      //{ route: 'contacts/:id',  moduleId: 'contact-detail', name:'contacts' }
+    ]);
+
+    this.router = router;
+  }
 }
