@@ -36,17 +36,15 @@
                                 <h2 class="cd-headline clip is-full-width font-accident-two-light">
                                     <span>The experienced </span>
                                     <span class="cd-words-wrapper">
-                                        <b class="is-visible">UI/UX Designer</b>
-                                        <b>Web Designer</b>
-                                        <b>Photographer</b>
+                                        <b repeat.for="skill of skills" class.bind="skill.isFirst ? 'is-visible' : ''">${skill.name}</b> <!-- first:  class="is-visible" -->
                                     </span>
                                 </h2>
                             </section>
 
                         </div>
                         <div class="col-md-2 nopadding pdf">
-                            <a href="#" class="hvr-sweep-to-right">
-                                <i class="flaticon-behance7" title="My Behance Portfolio"></i>
+                            <a href.bind="linkedin.url" class="hvr-sweep-to-right">
+                                <i class="flaticon-linkedin22" title="View Linkedin Portfolio"></i>
                             </a>
                         </div>
                     </div>

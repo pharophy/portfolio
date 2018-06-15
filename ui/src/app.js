@@ -8,6 +8,10 @@ export class App {
     this.navigationLinkContext = navigationLinkContext;
     this.person = {};
     this.navigationLinks = [];
+    this.resumeLink = {};
+    this.menuLinks = [];
+    this.skills = [];
+    this.linkedin = {};
   }
 
   created() {
@@ -15,6 +19,10 @@ export class App {
     this.navigationLinks = this.navigationLinkContext.getNavigationLinks(this.person.id);
     //this.skills = _(this.navigationLinks).find(n => n.type === 'skill');
     this.resumeLink = _(this.navigationLinks).find(n => n.type === 'resume'); //this.navigationLinks[7]; //TODO: when inet access, import lodash and change to _(this.navigationLinks).find(n => n.type === 'attachment');
+    this.menuLinks = _(this.navigationLinks).filter(n => n.type === 'default' || n.type === 'skill').value();
+    this.skills = _(this.navigationLinks).filter(n => n.type === 'skill').value();
+    this.skills[0].isFirst = true;
+    this.linkedin = _(this.navigationLinks).find(n => n.type === 'linkedin');
   }
 
   configureRouter(config, router) {
