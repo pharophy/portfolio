@@ -23,6 +23,8 @@ export class App {
     this.skills = _(this.navigationLinks).filter(n => n.type === 'skill').value();
     this.skills[0].isFirst = true;
     this.linkedin = _(this.navigationLinks).find(n => n.type === 'linkedin');
+    //TODO: need to determine how to handle content sections
+    //TODO: set up routing for other pages
   }
 
   configureRouter(config, router) {
