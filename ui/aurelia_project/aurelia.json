@@ -90,6 +90,11 @@
             "resources": [
               "css/font-awesome.css"
             ]
+          },
+          {
+            "name": "lodash",
+            "path": "../node_modules/lodash",
+            "main": "lodash"
           }
         ]
       }
