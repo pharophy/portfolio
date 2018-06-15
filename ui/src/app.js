@@ -1,5 +1,7 @@
 import personContext from 'models/person';
 import navigationLinkContext from 'models/navigation-link';
+import _ from 'lodash';
+
 export class App {
   constructor() {
     this.personContext = personContext;
@@ -12,7 +14,7 @@ export class App {
     this.person = this.personContext.getPerson(0);
     this.navigationLinks = this.navigationLinkContext.getNavigationLinks(this.person.id);
     //this.skills = _(this.navigationLinks).find(n => n.type === 'skill');
-    this.resumeLink = this.navigationLinks[7]; //TODO: when inet access, import lodash and change to _(this.navigationLinks).find(n => n.type === 'attachment');
+    this.resumeLink = _(this.navigationLinks).find(n => n.type === 'resume'); //this.navigationLinks[7]; //TODO: when inet access, import lodash and change to _(this.navigationLinks).find(n => n.type === 'attachment');
   }
 
   configureRouter(config, router) {
