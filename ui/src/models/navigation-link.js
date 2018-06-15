@@ -15,7 +15,7 @@ export default class NavigationLink {
       new NavigationLink('History', '/history', 'default'),
       new NavigationLink('Linkedin', 'http://linkedin.com', 'external'),
       new NavigationLink('Website', 'http://blabberjax.com', 'external'),
-      new NavigationLink('Resume', '/src/assets/images/shawn-souto-resume.doc', 'resume')
+      new NavigationLink('Resume', '/src/assets/attachments/shawn-souto-resume.doc', 'resume')
     ];
   }
 }
