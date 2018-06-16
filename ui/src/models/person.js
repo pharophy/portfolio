@@ -4,6 +4,11 @@ export default class Person {
     this.firstName = firstName;
     this.lastName = lastName;
     this.imageUrl = imageUrl;
+    this.title = title;
+    this.subtitle = subtitle;
+    this.address = address;
+    this.phone = phone;
+    this.email = email;
   }
 
   static getPerson(id) {
