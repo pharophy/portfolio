@@ -1,5 +1,5 @@
 export default class Person {
-  constructor(firstName, lastName, imageUrl, id = 0) {
+  constructor(firstName, lastName, imageUrl, title, subtitle, address, phone, email, id = 0) {
     this.id = id;
     this.firstName = firstName;
     this.lastName = lastName;
@@ -16,6 +16,11 @@ export default class Person {
       'Shawn',
       'Souto',
       '/src/assets/images/shawn-souto.jpg',
+      'Full Stack Engineer, Enterprise Architect, &amp; Marketer',
+      'This is Shawn\'s subtitle',
+      '2501 Balmoral Ct<br/>Hillsborough, NJ 08844',
+      '908-616-0569',
+      'shawn.souto@gmail.com',
       0
     );
   }
