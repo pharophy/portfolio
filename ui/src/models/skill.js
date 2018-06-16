@@ -1,5 +1,8 @@
-export default class Skill {
-  constructor(name, description, url, type, cssClass, orderIndex, content, id = 0) {
+import NavigationLink from './navigation-link';
+
+export default class Skill extends NavigationLink {
+  constructor(name, url, type, cssClass, orderIndex, description, content, id) {
+    super(name, url, type, cssClass, orderIndex, description); /* ignore id */
     this.id = id;
     this.name = name;
     this.url = url;
@@ -10,12 +13,12 @@ export default class Skill {
     this.content = content;
   }
 
-  static getSkills(id) {
+  static getSkills(personId) {
     return [
-      new Skill('Visionary', 'This is a visionary description.'),
-      new Skill('Enterprise Architect', 'This is an architect description'),
-      new Skill('Full Stack Engineer', 'This is an engineer description'),
-      new Skill('Marketer', 'This is a marketer description')
+      new Skill('Visionary', '/person/1/visionary', 'skill', 'ui-menu-color02', 1, 'This is a visionary description.'),
+      new Skill('Enterprise Architect', '/engineer', 'skill', 'ui-menu-color03', 2, 'This is an architect description'),
+      new Skill('Full Stack Engineer', '/engineer', 'skill', 'ui-menu-color03', 3, 'This is an engineer description'),
+      new Skill('Marketer', '/marketer', 'skill', 'ui-menu-color04', 4, 'This is a marketer description'),
     ];
   }
 }
