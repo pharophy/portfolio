@@ -10,6 +10,7 @@ export default class NavigationLink {
   }
 
   static getNavigationLinks(personId) {
+    //TODO: generate navigation links from skills for person
     return [
       new NavigationLink('Home', '', 'default', 'ui-menu-color01', 0),
       new NavigationLink('Visionary', '/person/1/visionary', 'skill', 'ui-menu-color02', 1),
