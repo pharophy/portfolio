@@ -17,8 +17,9 @@ export default class NavigationLink {
       new NavigationLink('Marketer', '/marketer', 'skill', 'ui-menu-color04', 3),
       new NavigationLink('History', '/history', 'default', 'ui-menu-color05', 4),
       new NavigationLink('Linkedin', 'https://www.linkedin.com/in/shawnsouto/', 'linkedin', 5),
-      new NavigationLink('Website', 'http://blabberjax.com', 'external', 6),
-      new NavigationLink('Resume', '/src/assets/attachments/shawn-souto-resume.doc', 'resume', 7)
+      new NavigationLink('Twitter', 'https://www.twitter.com/', 'twitter', 6),
+      new NavigationLink('Website', 'http://blabberjax.com', 'website', 7),
+      new NavigationLink('Resume', '/src/assets/attachments/shawn-souto-resume.doc', 'resume', 8)
     ];
   }
 }
