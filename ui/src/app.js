@@ -1,5 +1,6 @@
 import personContext from 'models/person';
 import navigationLinkContext from 'models/navigation-link';
+import skillsContext from 'models/skill';
 import _ from 'lodash';
 
 export class App {
@@ -20,7 +21,8 @@ export class App {
     //this.skills = _(this.navigationLinks).find(n => n.type === 'skill');
     this.resumeLink = _(this.navigationLinks).find(n => n.type === 'resume'); //this.navigationLinks[7]; //TODO: when inet access, import lodash and change to _(this.navigationLinks).find(n => n.type === 'attachment');
     this.menuLinks = _(this.navigationLinks).filter(n => n.type === 'default' || n.type === 'skill').value();
-    this.skills = _(this.navigationLinks).filter(n => n.type === 'skill').value();
+    //this.skills = _(this.navigationLinks).filter(n => n.type === 'skill').value();
+    this.skills = this.skillsContext.getSkills(this.person.id);
     this.skills[0].isFirst = true;
     this.linkedin = _(this.navigationLinks).find(n => n.type === 'linkedin');
     //TODO: need to determine how to handle content sections
