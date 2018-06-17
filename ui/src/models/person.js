@@ -18,7 +18,7 @@ export default class Person {
       '/src/assets/images/shawn-souto.jpg',
       'Full Stack Engineer, Enterprise Architect, &amp; Marketer',
       'This is Shawn\'s subtitle',
-      '2501 Balmoral Ct<br/>Hillsborough, NJ 08844',
+      '2501 Balmoral Ct \nHillsborough, NJ 08844',
       '908-616-0569',
       'shawn.souto@gmail.com',
       0
