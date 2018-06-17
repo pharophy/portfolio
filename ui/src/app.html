@@ -90,52 +90,21 @@
                         </div>
                         <div class="divider-dynamic"></div>
                         <div class="row nopadding">
-                            <div class="col-md-4 infoblock nopadding">
+                            <div repeat.for="skill of skills" class="col-md-4 infoblock nopadding">
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-1 col-md-3">
                                         <i class="flaticon-clocks18 color-blue"></i>
                                         <div class="dividewhite1"></div>
                                     </div>
                                     <div class="col-xs-12 col-sm-11 col-md-9">
-                                        <h4 class="font-accident-two-medium uppercase">Modern</h4>
+                                        <h4 class="font-accident-two-medium uppercase">${skill.name}</h4>
                                         <p class="">
-                                            The Gridus Resume Template has an unique modern flat intuitive design. You can choose one of 8 Color schemes.
+                                            ${skill.description}
                                         </p>
                                     </div>
                                 </div>
                                 <div class="divider-dynamic"></div>
                             </div>
-                            <div class="col-md-4 infoblock nopadding">
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-1 col-md-3">
-                                        <i class="flaticon-pie-graph color-blue"></i>
-                                        <div class="dividewhite1"></div>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-11 col-md-9">
-                                        <h4 class="font-accident-two-medium uppercase">Simple CV</h4>
-                                        <p class="">
-                                            Gridus Personal Template is the simple, clean and stylish fully-responsive resume theme with modern creative design.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="divider-dynamic"></div>
-                            </div>
-                            <div class="col-md-4 infoblock nopadding">
-                                <div class="row">
-                                    <div class="col-xs-12 col-sm-1 col-md-3">
-                                        <i class="flaticon-tool-1 color-blue"></i>
-                                        <div class="dividewhite1"></div>
-                                    </div>
-                                    <div class="col-xs-12 col-sm-11 col-md-9">
-                                        <h4 class="font-accident-two-medium uppercase">Responsive</h4>
-                                        <p class="">
-                                            Works fast and looks fine on any device with the wide range of the screen resolution. Supports all the Google SEO rules.
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="divider-dynamic"></div>
-                            </div>
-
                         </div>
                     </div>
                 </div>
@@ -153,15 +122,7 @@
                                     <p class="uppercase">Name:</p>
                                 </div>
                                 <div class="two">
-                                    <p class="">Samuel F. Anderson</p>
-                                </div>
-                            </div>
-                            <div class="fullwidth box">
-                                <div class="one">
-                                    <p class="uppercase text-nowrap">Birth Date:</p>
-                                </div>
-                                <div class="two">
-                                    <p class="">03/12/1980</p>
+                                    <p class="">${person.firstName} ${person.lastName}</p>
                                 </div>
                             </div>
                             <div class="fullwidth box">
@@ -169,7 +130,7 @@
                                     <p class="uppercase">Address:</p>
                                 </div>
                                 <div class="two">
-                                    <p class="">1234, Direct drive, Daytona Beach, Fl, USA</p>
+                                    <p class="">${person.address}</p>
                                 </div>
                             </div>
                             <div class="fullwidth box">
@@ -177,7 +138,7 @@
                                     <p class="uppercase">Phone:</p>
                                 </div>
                                 <div class="two">
-                                    <p class="">1 234 567 89 10</p>
+                                    <p class="">${person.phone}</p>
                                 </div>
                             </div>
                             <div class="fullwidth box">
@@ -185,7 +146,7 @@
                                     <p class="uppercase">Email:</p>
                                 </div>
                                 <div class="two">
-                                    <p class="">james@anderson.com</p>
+                                    <p class="">${person.email}</p>
                                 </div>
                             </div>
                         </div>
