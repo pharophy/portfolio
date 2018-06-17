@@ -11,16 +11,19 @@ export default class NavigationLink {
 
   static getNavigationLinks(personId) {
     //TODO: generate navigation links from skills for person
-    return [
+    let navigationLinks = [
       new NavigationLink('Home', '', 'default', 'ui-menu-color01', 0),
-      new NavigationLink('Visionary', '/person/1/visionary', 'skill', 'ui-menu-color02', 1),
-      new NavigationLink('Engineer', '/engineer', 'skill', 'ui-menu-color03', 2),
-      new NavigationLink('Marketer', '/marketer', 'skill', 'ui-menu-color04', 3),
-      new NavigationLink('History', '/history', 'default', 'ui-menu-color05', 4),
-      new NavigationLink('Linkedin', 'https://www.linkedin.com/in/shawnsouto/', 'linkedin', 5),
-      new NavigationLink('Twitter', 'https://www.twitter.com/', 'twitter', 6),
-      new NavigationLink('Website', 'http://blabberjax.com', 'website', 7),
-      new NavigationLink('Resume', '/src/assets/attachments/shawn-souto-resume.doc', 'resume', 8)
+      new NavigationLink('Visionary', '/person/1/visionary', 'skill', 'ui-menu-color02', 1, 'This is a visionary description.'),
+      new NavigationLink('Enterprise Architect', '/engineer', 'skill', 'ui-menu-color03', 2, 'This is an architect description'),
+      new NavigationLink('Full Stack Engineer', '/engineer', 'skill', 'ui-menu-color03', 3, 'This is an engineer description'),
+      new NavigationLink('Marketer', '/marketer', 'skill', 'ui-menu-color04', 4, 'This is a marketer description'),
+      new NavigationLink('History', '/history', 'default', 'ui-menu-color05', 5),
+      new NavigationLink('Linkedin', 'https://www.linkedin.com/in/shawnsouto/', 'linkedin', 6),
+      new NavigationLink('Twitter', 'https://www.twitter.com/', 'twitter', 7),
+      new NavigationLink('Website', 'http://blabberjax.com', 'website', 8),
+      new NavigationLink('Resume', '/src/assets/attachments/shawn-souto-resume.doc', 'resume', 9)
     ];
+
+    return navigationLinks;
   }
 }
