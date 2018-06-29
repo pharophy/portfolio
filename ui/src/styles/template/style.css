@@ -3283,4 +3283,10 @@ footer.light {
   #page-title h2 {
     font-size: 32px; } }
 
+/* custom styles */
+.fa-website:before {
+  content: "\f08e";
+}
+
 /*# sourceMappingURL=style.css.map */
+
