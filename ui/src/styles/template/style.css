@@ -2977,8 +2977,11 @@ footer {
     margin: 2px 0 8px 0;
     padding: 4px 8px;
     border-radius: 0;
-    width: 80%;
+    width: 50%;
     height: 31px; }
+  footer label {
+    display:inline;
+  }
   footer a.btn {
     padding: 7px 9px 5px 9px;
     margin-top: -1px; }
