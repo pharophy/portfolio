@@ -296,29 +296,9 @@
                     <h5 class="font-accident-two-bold uppercase">Follow me</h5>
                     <div class="follow">
                         <ul class="list-inline social">
-                            <li>
-                                <a target="_blank" href="#" class="rst-icon-facebook">
-                                    <i class="fa fa-facebook"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="#" class="rst-icon-twitter">
-                                    <i class="fa fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="#" class="rst-icon-pinterest">
-                                    <i class="fa fa-pinterest"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="#" class="rst-icon-instagram">
-                                    <i class="fa fa-instagram"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a target="_blank" href="#" class="rst-icon-youtube">
-                                    <i class="fa fa-youtube"></i>
+                            <li repeat.for="socialLink of socialLinks">
+                                <a target="_blank" href.bind="socialLink.url" class="rst-icon-${socialLink.subtype}">
+                                    <i class="fa fa-${socialLink.subtype}"></i>
                                 </a>
                             </li>
                         </ul>
