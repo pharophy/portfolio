@@ -16,7 +16,7 @@ export default class Person {
       'Shawn',
       'Souto',
       '/src/assets/images/shawn-souto.jpg',
-      'Full Stack Engineer, Enterprise Architect, &amp; Marketer',
+      'Full Stack Engineer, Enterprise Architect, & Marketer',
       'This is Shawn\'s subtitle',
       '2501 Balmoral Ct \nHillsborough, NJ 08844',
       '908-616-0569',
