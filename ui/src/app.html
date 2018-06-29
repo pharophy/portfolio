@@ -162,39 +162,21 @@
         <section id="professional" class="container-fluid" data-section="home">
 
             <div class="row flex-row">
-
-                <div id="pro-experience" class="col-md-4 flex-column dark nopadding ui-block-color02 flex-col" data-animation-origin="bottom"
-                    data-animation-duration="300" data-animation-delay="800" data-animation-distance="200px">
+                <div id="pro-experience" class="col-md-4 flex-column dark nopadding ui-block-color02 flex-col" 
+                    data-animation-origin="bottom" data-animation-duration="300" 
+                    data-animation-delay="800" data-animation-distance="200px">
                     <div class="padding-50 flex-panel">
                         <h3 class="font-accident-two-normal uppercase title">Employment</h3>
                         <div class="dividewhite4"></div>
                         <div class="experience">
-                            <ul class="">
-                                <li class="date">02/2008 - 04/2010</li>
+                            <ul repeat.for="position of positions" class="">
+                                <li class="date">${position.startDate} - ${position.endDate}</li>
                                 <li class="company uppercase">
                                     <a>
-                                        ABC Brodcast Inc. New York.
+                                        ${position.companyName} ${position.officeLocation}
                                     </a>
                                 </li>
-                                <li class="position">Junior Designer</li>
-                            </ul>
-                            <ul class="">
-                                <li class="date">04/2010 - 06/2012</li>
-                                <li class="company uppercase">
-                                    <a>
-                                        Leo Burnett London Office
-                                    </a>
-                                </li>
-                                <li class="position">Senior Designer</li>
-                            </ul>
-                            <ul class="">
-                                <li class="date">06/2012 - present</li>
-                                <li class="company uppercase">
-                                    <a>
-                                        Google Inc. Dublin.
-                                    </a>
-                                </li>
-                                <li class="position">UI/UX Designer</li>
+                                <li class="position">${position.title}</li>
                             </ul>
                         </div>
                         <a href="resume.html" class="btn btn-wh-trans btn-xs">Learn More</a>
