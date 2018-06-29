@@ -1,6 +1,7 @@
 import personContext from 'models/person';
 import navigationLinkContext from 'models/navigation-link';
 import skillContext from 'models/skill';
+import positionContext from 'models/position';
 import _ from 'lodash';
 
 export class App {
@@ -8,12 +9,15 @@ export class App {
     this.personContext = personContext;
     this.navigationLinkContext = navigationLinkContext;
     this.skillContext = skillContext;
+    this.positionContext = positionContext;
     this.person = {};
     this.navigationLinks = [];
     this.resumeLink = {};
     this.menuLinks = [];
     this.skills = [];
+    this.socialLinks = [];
     this.linkedin = {};
+    this.positions = [];
   }
 
   created() {
@@ -25,7 +29,12 @@ export class App {
     //this.skills = _(this.navigationLinks).filter(n => n.type === 'skill').value();
     this.skills = this.skillContext.getSkills(this.person.id);
     this.skills[0].isFirst = true;
-    this.linkedin = _(this.navigationLinks).find(n => n.type === 'linkedin');
+
+    const socLinks = _(this.navigationLinks).filter(n => n.type === 'social').value();
+    this.socialLinks = socLinks; // _(socLinks).keyBy('subtype');
+    this.linkedin = _(this.navigationLinks).find(n => n.subtype === 'linkedin');
+  
+    this.positions = this.positionContext.getPositions(this.person.id);
     //TODO: need to determine how to handle content sections
     //TODO: set up routing for other pages
   }
