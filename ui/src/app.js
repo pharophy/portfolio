@@ -2,6 +2,7 @@ import personContext from 'models/person';
 import navigationLinkContext from 'models/navigation-link';
 import skillContext from 'models/skill';
 import positionContext from 'models/position';
+import portfolioContext from 'models/portfolio-entry';
 import _ from 'lodash';
 
 export class App {
@@ -10,6 +11,7 @@ export class App {
     this.navigationLinkContext = navigationLinkContext;
     this.skillContext = skillContext;
     this.positionContext = positionContext;
+    this.portfolioContext = portfolioContext;
     this.person = {};
     this.navigationLinks = [];
     this.resumeLink = {};
@@ -17,7 +19,9 @@ export class App {
     this.skills = [];
     this.socialLinks = [];
     this.linkedin = {};
+    this.website = {};
     this.positions = [];
+    this.portfolioEntries = [];
   }
 
   created() {
@@ -33,8 +37,10 @@ export class App {
     const socLinks = _(this.navigationLinks).filter(n => n.type === 'social').value();
     this.socialLinks = socLinks; // _(socLinks).keyBy('subtype');
     this.linkedin = _(this.navigationLinks).find(n => n.subtype === 'linkedin');
-  
+    this.website = _(this.navigationLinks).find(n => n.subtype === 'website');
+
     this.positions = this.positionContext.getPositions(this.person.id);
+    this.portfolioEntries = this.portfolioContext.getPortfolioEntries(this.person.id);
     //TODO: need to determine how to handle content sections
     //TODO: set up routing for other pages
   }
