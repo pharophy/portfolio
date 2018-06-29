@@ -149,6 +149,18 @@
                                     <p class="">${person.email}</p>
                                 </div>
                             </div>
+                            <div class="fullwidth box">
+                                    <div class="one">
+                                        <p class="uppercase">Website:</p>
+                                    </div>
+                                    <div class="two">
+                                        <p class="">
+                                            <a href.bind="website.url">
+                                                ${website.url}
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
                         </div>
                         <div class="dividewhite1"></div>
                     </div>
@@ -166,7 +178,9 @@
                     data-animation-origin="bottom" data-animation-duration="300" 
                     data-animation-delay="800" data-animation-distance="200px">
                     <div class="padding-50 flex-panel">
-                        <h3 class="font-accident-two-normal uppercase title">Employment</h3>
+                        <h3 class="font-accident-two-normal uppercase title">
+                            <a href="/resume">Employment</a>
+                        </h3>
                         <div class="dividewhite4"></div>
                         <div class="experience">
                             <ul repeat.for="position of positions" class="">
@@ -186,52 +200,25 @@
                 <div id="circle-skills" class="col-md-8 flex-column dark nopadding ui-block-color03 flex-col" data-section="progress" data-animation-origin="right"
                     data-animation-duration="400" data-animation-delay="1100" data-animation-distance="200px">
                     <div class="padding-50 flex-panel">
-                        <h3 class="font-accident-two-normal uppercase title">Professional Skills</h3>
+                        <h3 class="font-accident-two-normal uppercase title">
+                            <a href="/portfolio">Portfolio</a>
+                        </h3>
                         <div class="dividewhite1"></div>
                         <div class="row">
 
-                            <div class="col-md-4 col-sm-4 col-xs-12 nopadding">
-                                <div class="progressbar text-center">
-                                    <div id="circle1" data-progressbar="circle" data-progressbar-color="#fff" data-progressbar-trailcolor="#fff" data-progressbar-to='{"color": "#51f2ec", "width": 4}'
-                                        data-progressbar-from='{"color": "#3498db", "width": 4}' data-progressbar-value="0.6">
+                            <div repeat.for="entry of portfolioEntries" class="col-md-4 col-sm-4 col-xs-12">
+                                <div class="text-center">
+                                    <div class="preview-image thumbnail">
+                                        <img src.bind="entry.defaultImage" />
                                     </div>
-                                    <h4 class="font-accident-two-bold uppercase">Install</h4>
+                                    <h4 class="font-accident-two-bold uppercase">${entry.title}</h4>
                                     <p class="font-regular-normal">
-                                        A prototype is an early sample, model, or release of a product built to test ...
+                                        ${entry.shortDescription}
                                     </p>
-                                    <a href="resume.html" class="btn btn-wh-trans btn-xs">Learn More</a>
+                                    <a href="/portfolio-entry?id=${entry.id}" class="btn btn-wh-trans btn-xs">Learn More</a>
                                 </div>
                                 <div class="dividewhite1"></div>
                             </div>
-
-                            <div class="col-md-4 col-sm-4 col-xs-12 nopadding">
-                                <div class="progressbar text-center">
-                                    <div id="circle2" data-progressbar="circle" data-progressbar-color="#fff" data-progressbar-trailcolor="#fff" data-progressbar-to='{"color": "#ffd200", "width": 4}'
-                                        data-progressbar-from='{"color": "#3498db", "width": 4}' data-progressbar-value="0.85">
-                                    </div>
-                                    <h4 class="font-accident-two-bold uppercase">Customize</h4>
-                                    <p class="font-regular-normal">
-                                        Design is the creation of a plan or convention for the construction of an object ...
-                                    </p>
-                                    <a href="resume.html" class="btn btn-wh-trans btn-xs">Learn More</a>
-                                </div>
-                                <div class="dividewhite1"></div>
-                            </div>
-
-                            <div class="col-md-4 col-sm-4 col-xs-12 nopadding">
-                                <div class="progressbar text-center">
-                                    <div id="circle3" data-progressbar="circle" data-progressbar-color="#fff" data-progressbar-trailcolor="#fff" data-progressbar-to='{"color": "#F09C88", "width": 4}'
-                                        data-progressbar-from='{"color": "#3498db", "width": 4}' data-progressbar-value="0.93">
-                                    </div>
-                                    <h4 class="font-accident-two-bold uppercase">Support</h4>
-                                    <p class="font-regular-normal">
-                                        Software development is the process of computer programming ...
-                                    </p>
-                                    <a href="resume.html" class="btn btn-wh-trans btn-xs">Learn More</a>
-                                </div>
-                                <div class="dividewhite1"></div>
-                            </div>
-
                         </div>
                     </div>
                 </div>
