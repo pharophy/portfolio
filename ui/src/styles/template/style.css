@@ -2180,8 +2180,8 @@ section {
     opacity: .6; }
 #pro-experience.dark li.position {
   color: #ffffff; }
-#pro-experience.dark a, #pro-experience.dark a:hover, #pro-experience.dark a:focus {
-  color: #ffffff; }
+/*#pro-experience.dark a, #pro-experience.dark a:hover, #pro-experience.dark a:focus {
+  color: #ffffff; } */
 #pro-experience.dark a i::before {
   color: #ffffff; }
 
