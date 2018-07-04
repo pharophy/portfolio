@@ -1,11 +1,12 @@
 export default class NavigationLink {
-  constructor(name, url, type, subtype, cssClass, orderIndex, description, id = 0) {
+  constructor(name, url, type, subtype, cssClass, iconType, orderIndex, description, id = 0) {
     this.id = id;
     this.name = name;
     this.url = url;
     this.type = type;
     this.subtype = subtype;
     this.cssClass = cssClass;
+    this.iconType = iconType;
     this.description = description;
     this.orderIndex = orderIndex;
   }
