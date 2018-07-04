@@ -49,7 +49,7 @@
                     <ul id="nav" class="row nopadding cd-side-navigation">
                         <li repeat.for="link of menuLinks" class="col-xs-4 col-sm-2 nopadding menuitem ${link.cssClass}" data-animation-duration="1000" data-animation-delay="100">
                             <a href.bind="link.url" class="hvr-sweep-to-bottom">
-                                <i class="flaticon-insignia"></i> <!-- TODO: add icons for links -->
+                                <i class="${link.iconType}"></i>
                                 <span>${link.name}</span>
                             </a>
                         </li> 
@@ -87,12 +87,12 @@
                             <div repeat.for="skill of skills" class="col-md-4 infoblock nopadding">
                                 <div class="row">
                                     <div class="col-xs-12 col-sm-1 col-md-3">
-                                        <i class="${skill.cssClass} color-blue"></i>
+                                        <i class="${skill.iconType} color-blue"></i>
                                         <div class="dividewhite1"></div>
                                     </div>
                                     <div class="col-xs-12 col-sm-11 col-md-9">
                                         <h4 class="font-accident-two-medium uppercase">${skill.name}</h4>
-                                        <p class="">
+                                        <p class.bind="skill.cssClass">
                                             ${skill.description}
                                         </p>
                                     </div>
