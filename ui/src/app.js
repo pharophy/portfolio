@@ -11,6 +11,7 @@ export class App {
       { route: 'person/:id/portfolio',  moduleId: 'person/portfolio',   title: 'My Portfolio', layoutView: 'components/_shared/_layout.html' },
       { route: 'person/:id/skills',  moduleId: 'person/skill',   title: 'My Skills', layoutView: 'components/_shared/_layout.html' },
       { route: 'person/:id/contact',  moduleId: 'person/contact',   title: 'Contact Me', layoutView: 'components/_shared/_layout.html' },
+      { route: 'person/:id/blog',  moduleId: 'person/blog',   title: 'Recent Posts', layoutView: 'components/_shared/_layout.html'},
       { route: 'skill/:skill',  moduleId: 'skills/detail',   title: 'Skill Details', layoutView: 'components/_shared/_layout.html'}
     ]);
 
