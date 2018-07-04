@@ -1,3 +1,13 @@
 <template>
-    <h1>This is the Skill Page</h1>
-</template>
+        <div slot="header">
+            <require from='components/person/person-header'></require>
+            <person-header></person-header>
+        </div>
+        <div slot="content">
+            <h1>This is the Skill Page</h1>
+        </div>
+        <div slot="footer">
+            <require from='components/person/person-footer'></require>
+            <person-footer></person-footer>
+        </div>
+    </template>
