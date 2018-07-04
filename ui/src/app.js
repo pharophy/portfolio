@@ -3,12 +3,14 @@
 export class App {
   configureRouter(config, router) {
     config.map([
-      //{ route: '',  moduleId: 'components/page',   title: 'Page'},
-      { route: '',  moduleId: 'person/summary',   title: 'Summary'},
-      { route: 'history',  moduleId: 'person/history',   title: 'History'},
-      { route: 'portfolio',  moduleId: 'person/portfolio',   title: 'Portfolio'},
-      { route: 'skill',  moduleId: 'skills/detail',   title: 'Skill Information'}
-      //{ route: ['', 'home'],   name: 'home',    moduleId: PLATFORM.moduleName('home') }
+      //{ route: '',  moduleId: 'home',   title: 'Home'},
+
+      //NOTE: must navigate to localhost:9000/#/person/1 to see home page
+      { route: ['/person/:id', '/person/:id/summary'],  moduleId: 'person/summary',   title: 'Summary'},
+      { route: 'person/:id/history',  moduleId: 'person/history',   title: 'History'},
+      { route: 'person/:id/portfolio',  moduleId: 'person/portfolio',   title: 'Portfolio'},
+      { route: 'person/:id/skills',  moduleId: 'person/skill',   title: 'Skill Information'},
+      { route: 'skill/:skill',  moduleId: 'skills/detail',   title: 'Skill Information'}
     ]);
 
     this.router = router;
