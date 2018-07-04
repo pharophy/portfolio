@@ -4,7 +4,84 @@
         <person-header></person-header>
     </div>
     <div slot="content">
-        <h1>This is the Contact Page</h1>
+        <div id="contact" class="inner-content">
+
+            <section id="page-title" class="inner-section ui-menu-color06">
+                <div class="container-fluid nopadding">
+                    <h2 class="font-accident-two-bold color01" data-animation-origin="right" data-animation-duration="400" data-animation-delay="100" data-animation-distance="50px" data-sr-id="7" style="; visibility: visible;  -webkit-transform: translateX(0) scale(1); opacity: 1;transform: translateX(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 0.4s cubic-bezier(1.000, 1.000, 1.000, 1.000) 0.1s, opacity 0.4s cubic-bezier(1.000, 1.000, 1.000, 1.000) 0.1s; transition: transform 0.4s cubic-bezier(1.000, 1.000, 1.000, 1.000) 0.1s, opacity 0.4s cubic-bezier(1.000, 1.000, 1.000, 1.000) 0.1s; ">Contact</h2>
+                    <h4 class="font-accident-two-light color01 uppercase subtitle" data-animation-origin="right" data-animation-duration="400" data-animation-delay="200" data-animation-distance="50px" data-sr-id="8" style="; visibility: visible;  -webkit-transform: translateX(0) scale(1); opacity: 1;transform: translateX(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 0.4s cubic-bezier(1.000, 1.000, 1.000, 1.000) 0.2s, opacity 0.4s cubic-bezier(1.000, 1.000, 1.000, 1.000) 0.2s; transition: transform 0.4s cubic-bezier(1.000, 1.000, 1.000, 1.000) 0.2s, opacity 0.4s cubic-bezier(1.000, 1.000, 1.000, 1.000) 0.2s; ">Get in Touch</h4>
+                    <p class="small color01" data-animation-origin="right" data-animation-duration="400" data-animation-delay="300" data-animation-distance="50px" data-sr-id="9" style="; visibility: visible;  -webkit-transform: translateX(0) scale(1); opacity: 1;transform: translateX(0) scale(1); opacity: 1;-webkit-transition: -webkit-transform 0.4s cubic-bezier(1.000, 1.000, 1.000, 1.000) 0.3s, opacity 0.4s cubic-bezier(1.000, 1.000, 1.000, 1.000) 0.3s; transition: transform 0.4s cubic-bezier(1.000, 1.000, 1.000, 1.000) 0.3s, opacity 0.4s cubic-bezier(1.000, 1.000, 1.000, 1.000) 0.3s; ">
+                        Are you looking for help?  Fill out the form below and we&#39;ll be in touch soon!
+                    </p>
+                </div>
+            </section>
+        
+            <section class="inner-section">            
+                <div class="container-fluid nopadding">
+                    <div class="row">
+                        <form id="contact-form" method="post" action="contact.php" role="form">
+
+                            <div class="messages"></div>
+                        
+                            <div class="controls">
+                        
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_name">Firstname *</label>
+                                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_lastname">Lastname *</label>
+                                            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_email">Email *</label>
+                                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="form_phone">Phone</label>
+                                            <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="form_message">Message *</label>
+                                            <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                                            <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <input type="submit" class="btn btn-success btn-send" value="Send message">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </form>
+                    </div>
+                </div>      
+            </section>
+
+        </div>
     </div>
     <div slot="footer">
         <require from='components/person/person-footer'></require>
