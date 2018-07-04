@@ -28,7 +28,7 @@ export default class Position {
         'this is description',
         [
           new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
-          new Skill('SAP', '/sap', 'skill', 'ui-menu-color03', 2, 'This is an architect description'),
+          new Skill('SAP', '/sap', 'skill', 'ui-menu-color03', 2, 'This is an architect description')
         ]
       ),
       new Position(
@@ -40,7 +40,7 @@ export default class Position {
         'this is description',
         [
           new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
-          new Skill('JavaScript', '/sap', 'skill', 'ui-menu-color03', 2, 'This is an architect description'),
+          new Skill('JavaScript', '/sap', 'skill', 'ui-menu-color03', 2, 'This is an architect description')
         ]
       )
     ];
