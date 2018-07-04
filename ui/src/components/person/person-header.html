@@ -1,0 +1,64 @@
+<template>
+    <require from='resources/scriptinjector'></require>
+    <scriptinjector url="/src/assets/headlines/headlines.min.js"></scriptinjector>
+    <header>
+        <section id="top-navigation" class="container-fluid nopadding">
+            <div class="row nopadding ident ui-bg-color01">
+                <!-- Photo -->
+                <a href="#/person/${person.id}">
+                    <div class="col-md-4 vc-photo photo-primary">
+                        <img src.bind="person.imageUrl" title.bind="person.firstName" />
+                    </div>
+                </a>
+                <!-- /Photo -->
+                <div class="col-md-8 vc-name nopadding">
+                    <!-- Name-Position -->
+                    <div class="row nopadding name">
+                        <div class="col-md-10 name-title">
+                            <h1 class="font-accident-two-extralight">${person.firstName} ${person.lastName}</h1>
+                        </div>
+                        <div class="col-md-2 nopadding name-pdf">
+                            <a href.bind="resumeLink.url" class="hvr-sweep-to-right">
+                                <i class="flaticon-download149" title="Download Resume"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row nopadding position">
+                        <div class="col-md-10 position-title">
+
+                            <section class="cd-intro">
+                                <h2 class="cd-headline clip is-full-width font-accident-two-light">
+                                    <span>The experienced </span>
+                                    <span class="cd-words-wrapper">
+                                        <b repeat.for="skill of skills" class.bind="skill.isFirst ? 'is-visible' : ''">${skill.name}</b> <!-- first:  class="is-visible" -->
+                                    </span>
+                                </h2>
+                            </section>
+
+                        </div>
+                        <div class="col-md-2 nopadding pdf">
+                            <a href.bind="linkedin.url" class="hvr-sweep-to-right">
+                                <i class="flaticon-linkedin22" title="View Linkedin Portfolio"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /Name-Position -->
+
+                    <!-- Main Navigation -->
+
+                    <ul id="nav" class="row nopadding cd-side-navigation">
+                        <li repeat.for="link of menuLinks" class="col-xs-4 col-sm-2 nopadding menuitem ${link.cssClass}" data-animation-duration="1000" data-animation-delay="100">
+                            <a href.bind="link.url" class="hvr-sweep-to-bottom">
+                                <i class="${link.iconType}"></i>
+                                <span>${link.name}</span>
+                            </a>
+                        </li> 
+                    </ul>
+
+                    <!-- /Main Navigation -->
+
+                </div>
+            </div>
+        </section>
+    </header>
+</template>
