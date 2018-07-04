@@ -15,10 +15,10 @@ export default class Skill extends NavigationLink {
 
   static getSkills(personId) {
     return [
-      new Skill('Visionary', '/person/1/visionary', 'skill', 'ui-menu-color02', 1, 'This is a visionary description.'),
-      new Skill('Enterprise Architect', '/engineer', 'skill', 'ui-menu-color03', 2, 'This is an architect description'),
-      new Skill('Full Stack Engineer', '/engineer', 'skill', 'ui-menu-color03', 3, 'This is an engineer description'),
-      new Skill('Marketer', '/marketer', 'skill', 'ui-menu-color04', 4, 'This is a marketer description')
+      new Skill('Technical Leadership', '/skill/technical-leadership', 'skill', 'flaticon-profile5', 100, 'This is a visionary description.'),
+      new Skill('Enterprise Architecture', '/skill/enterprise-architecture', 'skill', 'flaticon-insignia', 200, 'This is an architect description'),
+      new Skill('Full Stack Engineering', '/skill/full-stack-engineering', 'skill', 'flaticon-tool-1', 300, 'This is an engineer description'),
+      new Skill('Internet Marketing', '/skill/internet-marketing', 'skill', 'flaticon-paper40', 400, 'This is a marketer description')
     ];
   }
 }
