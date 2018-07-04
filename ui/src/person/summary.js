@@ -31,7 +31,7 @@ export default class Summary {
     this.resumeLink = _(this.navigationLinks).find(n => n.type === 'resume'); //this.navigationLinks[7]; //TODO: when inet access, import lodash and change to _(this.navigationLinks).find(n => n.type === 'attachment');
     this.menuLinks = _(this.navigationLinks).filter(n => n.type === 'main-nav').value();
     //this.skills = _(this.navigationLinks).filter(n => n.type === 'skill').value();
-    this.skills = this.skillContext.getSkills(this.person.id);
+    this.skills = _.slice(this.skillContext.getSkills(this.person.id), 0, 3); //top 3
     this.skills[0].isFirst = true;
 
     const socLinks = _(this.navigationLinks).filter(n => n.type === 'social').value();
