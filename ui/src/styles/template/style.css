@@ -3200,10 +3200,18 @@ footer.light {
     padding-left: 0 !important; }
 
   .grid-item {
-    width: 100%; }
+    width: 100%; 
+  }
 
-  .inner-content .inner-section {
-    padding: 60px 10px; }
+  .grid-item.grid-skills {
+    width: 50%;
+    margin-bottom: 0;
+    display: block;
+    float: left;
+  }
+
+  /*.inner-content .inner-section {
+    padding: 60px 10px; }*/ 
 
   .infoblock {
     text-align: center; }
@@ -3288,5 +3296,25 @@ footer.light {
   content: "\f08e";
 }
 
+/* years experience */
+.yr-xp {
+  font-weight: bold;
+}
+
+.yr-xp-1 {
+  color:#FFA0A0;
+}
+
+.yr-xp-2, .yr-xp-3  {
+  color:#D36767;
+}
+
+.yr-xp-4, .yr-xp-5, .yr-xp-6 {
+  color:#A35656
+}
+
+.yr-xp-7, .yr-xp-8, .yr-xp-9, .yr-xp-10, .yr-xp-11, .yr-xp-12, .yr-xp-13, .yr-xp-14, .yr-xp-15 {
+  color:#825050
+}
 /*# sourceMappingURL=style.css.map */
 
