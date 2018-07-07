@@ -18,66 +18,85 @@
         
             <section class="inner-section">            
                 <div class="container-fluid nopadding">
-                    <div class="row">
-                        <form id="contact-form" method="post" action="contact.php" role="form">
 
-                            <div class="messages"></div>
-                        
-                            <div class="controls">
-                        
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="form_name">Firstname *</label>
-                                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
-                                            <div class="help-block with-errors"></div>
+                    <ul class="nav nav-tabs">
+                        <li role="presentation" class="active"><a data-toggle="tab" href="#schedule">Schedule Meeting</a></li>
+                        <li role="presentation"><a data-toggle="tab" href="#message">Send Message</a></li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div id="schedule" class="tab-pane fade in active">
+                            <!-- Calendly inline widget begin -->
+                            <div class="calendly-inline-widget" data-url="https://calendly.com/blabberjax" style="min-width:320px;height:580px;"></div>
+                            <require from="../resources/scriptinjector"></require>
+                            <scriptinjector url="https://assets.calendly.com/assets/external/widget.js"></scriptinjector>
+                            <!-- Calendly inline widget end -->
+                        </div>
+                        <div id="message" class="tab-pane fade">
+                            <div class="form-wrapper">
+                                    <form id="contact-form" method="post" action="#" role="form">
+            
+                                        <div class="messages"></div>
+                                    
+                                        <div class="controls">
+                                    
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="form_name">Firstname *</label>
+                                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="form_lastname">Lastname *</label>
+                                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="form_email">Email *</label>
+                                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="form-group">
+                                                        <label for="form_phone">Phone</label>
+                                                        <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="form-group">
+                                                        <label for="form_message">Message *</label>
+                                                        <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                                                        <div class="help-block with-errors"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <input type="submit" class="btn btn-success btn-send" value="Send message">
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="form_lastname">Lastname *</label>
-                                            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
+                                    
+                                    </form>
                                 </div>
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="form_email">Email *</label>
-                                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="form_phone">Phone</label>
-                                            <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Please enter your phone">
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="form-group">
-                                            <label for="form_message">Message *</label>
-                                            <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
-                                            <div class="help-block with-errors"></div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <input type="submit" class="btn btn-success btn-send" value="Send message">
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <p class="text-muted"><strong>*</strong> These fields are required.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        
-                        </form>
+                        </div>
                     </div>
+
+                    
                 </div>      
             </section>
 

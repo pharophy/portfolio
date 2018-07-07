@@ -3316,5 +3316,11 @@ footer.light {
 .yr-xp-7, .yr-xp-8, .yr-xp-9, .yr-xp-10, .yr-xp-11, .yr-xp-12, .yr-xp-13, .yr-xp-14, .yr-xp-15 {
   color:#825050
 }
+
+/* contact form */
+.form-wrapper {
+  margin-top:1em;
+}
+
 /*# sourceMappingURL=style.css.map */
 
