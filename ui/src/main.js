@@ -1,17 +1,32 @@
 import environment from './environment';
+import {PLATFORM} from 'aurelia-pal';
+import * as Bluebird from 'bluebird';
+import $ from 'jquery';
+
+// remove out if you don't want a Promise polyfill (remove also from webpack.config.js)
+Bluebird.config({ warnings: { wForgottenReturn: false } });
 
 export function configure(aurelia) {
   aurelia.use
     .standardConfiguration()
-    .feature('resources');
+    .feature(PLATFORM.moduleName('resources/index'));
 
-  if (environment.debug) {
-    aurelia.use.developmentLogging();
-  }
+  // Uncomment the line below to enable animation.
+  // aurelia.use.plugin(PLATFORM.moduleName('aurelia-animator-css'));
+  // if the css animator is enabled, add swap-order="after" to all router-view elements
+
+  // Anyone wanting to use HTMLImports to load views, will need to install the following plugin.
+  // aurelia.use.plugin(PLATFORM.moduleName('aurelia-html-import-template-loader'));
+
+  aurelia.use.developmentLogging(environment.debug ? 'debug' : 'warn');
+
+  //custom plugins:
+  window.$ = window.jQuery = $;
+  aurelia.use.plugin(PLATFORM.moduleName('aurelia-bootstrap'), config => config.options.version = 4);
 
   if (environment.testing) {
-    aurelia.use.plugin('aurelia-testing');
+    aurelia.use.plugin(PLATFORM.moduleName('aurelia-testing'));
   }
 
-  aurelia.start().then(() => aurelia.setRoot());
+  return aurelia.start().then(() => aurelia.setRoot(PLATFORM.moduleName('app')));
 }

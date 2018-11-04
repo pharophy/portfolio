@@ -3,7 +3,7 @@
 [Color Scheme / Colors, textures]
 */
 .e-bg-light-texture {
-  background: url("../images/backgrounds/dark_fish_skin.png"); }
+  /*background: url("../images/backgrounds/dark_fish_skin.png");*/ }
 
 /*Background Color Classes */
 .color01 {
@@ -297,7 +297,7 @@
   background-color: #474747 !important; }
 
 .boxed {
-  background-image: url("../../images/backgrounds/old_moon.png"); }
+  background-image: url("../../images/old_moon.png"); }
 
 /* Blocks */
 .ui-block-color01 {

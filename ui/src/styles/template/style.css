@@ -5,7 +5,7 @@
 [Color Scheme / Colors, textures]
 */
 .e-bg-light-texture {
-  background: url("../images/backgrounds/dark_fish_skin.png"); }
+  /*background: url("../images/backgrounds/dark_fish_skin.png");*/ }
 
 /* Color Classes */
 .color01 {
@@ -593,7 +593,7 @@ body {
     margin: 0 0 16px 0; }
 
 #initial {
-  background-image: url("../images/initial/bg-01.jpg");
+  background-image: url("../../images/bg-01.jpg");
   background-attachment: fixed;
   background-position: center center;
   background-size: cover; }
@@ -906,7 +906,7 @@ i {
 
 /* Back to top */
 #back-top {
-  background: #bfbfbf url(../images/back_top.png) no-repeat 50% 50%;
+  background: #bfbfbf url(../../images/back_top.png) no-repeat 50% 50%;
   bottom: 40px;
   visibility: hidden;
   height: 40px;
@@ -917,7 +917,7 @@ i {
   opacity: 0;
   cursor: pointer; }
   #back-top:hover {
-    background: #e74c3c url(../images/back_top.png) no-repeat 50% 50%;
+    background: #e74c3c url(../../images/back_top.png) no-repeat 50% 50%;
     border-color: #e74c3c; }
 
 /* Forms */
@@ -1721,7 +1721,10 @@ figure.effect-goliath {
     -webkit-transform: translate3d(0px, 0, 0) scale(1.12);
     transform: translate3d(0px, 0, 0) scale(1.12);
     -webkit-backface-visibility: hidden;
-    backface-visibility: hidden; }
+    backface-visibility: hidden; 
+    max-width:100%;
+    max-height: 100%;
+  }
   figure.effect-goliath h3 {
     font-family: "Exo 2", sans-serif;
     color: #ffffff;
@@ -2325,7 +2328,7 @@ section {
   display: none; }
 
 .photo-more {
-  background: #e74c3c url(../images/back_top.png) no-repeat 50% 50%;
+  background: #e74c3c url(../../images/back_top.png) no-repeat 50% 50%;
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   height: 40px;
@@ -2775,7 +2778,7 @@ blockquote {
     width: 35px;
     height: 22px;
     content: '';
-    background-image: url("../images/quote.svg");
+    background-image: url("../../images/quote.png");
     background-repeat: no-repeat;
     background-size: 35px 22px; }
 
@@ -3323,4 +3326,9 @@ footer.light {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.thumbnail img {
+  max-width: 100%;
+  max-height: 100%;
+}
 

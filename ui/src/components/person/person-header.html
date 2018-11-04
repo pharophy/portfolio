@@ -1,12 +1,12 @@
 <template>
     <require from='resources/scriptinjector'></require>
-    <scriptinjector url="/src/assets/headlines/headlines.min.js"></scriptinjector>
+    <scriptinjector url="/assets/headlines/headlines.min.js"></scriptinjector>
     <header>
         <section id="top-navigation" class="container-fluid nopadding">
             <div class="row nopadding ident ui-bg-color01">
                 <!-- Photo -->
-                <a href="#/person/${person.id}">
-                    <div class="col-md-4 vc-photo photo-primary">
+                <a href="#/person/${person.id}" class="col-md-4 nopadding">
+                    <div class=" vc-photo photo-primary">
                         <img src.bind="person.imageUrl" title.bind="person.firstName" />
                     </div>
                 </a>

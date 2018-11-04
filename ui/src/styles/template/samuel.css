@@ -18,22 +18,22 @@
   transition: all .5s ease-in-out; }
 
 .timeline-samuel-01 {
-  background: url("../../images/layouts/samuel/timeline/01.jpg");
+  background: url("../../images/01.jpg");
   background-position: center;
   background-size: cover; }
 
 .timeline-samuel-02 {
-  background: url("../../images/layouts/samuel/timeline/02.jpg");
+  background: url("../../images/02.jpg");
   background-position: center;
   background-size: cover; }
 
 .timeline-samuel-03 {
-  background: url("../../images/layouts/samuel/timeline/03.jpg");
+  background: url("../../images/03.jpg");
   background-position: center;
   background-size: cover; }
 
 .timeline-samuel-04 {
-  background: url("../../images/layouts/samuel/timeline/04.jpg");
+  background: url("../../images/04.jpg");
   background-position: center;
   background-size: cover; }
 

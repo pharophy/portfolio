@@ -27,7 +27,7 @@ export default class NavigationLink {
       new NavigationLink('Linkedin', 'https://www.linkedin.com/in/shawnsouto/', 'social', 'linkedin', null, 100),
       new NavigationLink('Twitter', 'https://www.twitter.com/', 'social', 'twitter', null, 200),
       new NavigationLink('Website', 'https://blabberjax.com', 'social', 'website', null, 300),
-      new NavigationLink('Resume', '/src/assets/attachments/shawn-souto-resume.doc', 'resume', null, 400)
+      new NavigationLink('Resume', '/assets/attachments/shawn-souto-resume.doc', 'resume', null, 400)
     ];
 
     return navigationLinks;

@@ -15,7 +15,7 @@ export default class Person {
     return new Person(
       'Shawn',
       'Souto',
-      '/src/assets/images/shawn-souto.jpg',
+      'shawn-souto.jpg',
       'Full Stack Engineer, Enterprise Architect, & Marketer',
       'This is Shawn\'s subtitle',
       '2501 Balmoral Ct \nHillsborough, NJ 08844',

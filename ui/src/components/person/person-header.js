@@ -2,6 +2,7 @@ import personContext from 'models/person';
 import navigationLinkContext from 'models/navigation-link';
 import skillContext from 'models/skill';
 import _ from 'lodash';
+//import $ from 'jquery';
 
 export class PersonHeader {
   constructor() {
@@ -14,6 +15,7 @@ export class PersonHeader {
     this.menuLinks = [];
     this.skills = [];
     this.linkedin = {};
+    //window.$ = window.jQuery = $;
   }
 
   created() {

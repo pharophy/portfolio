@@ -18,22 +18,17 @@
         
             <section class="inner-section">            
                 <div class="container-fluid nopadding">
-
-                    <ul class="nav nav-tabs">
-                        <li role="presentation" class="active"><a data-toggle="tab" href="#schedule">Schedule Meeting</a></li>
-                        <li role="presentation"><a data-toggle="tab" href="#message">Send Message</a></li>
-                    </ul>
-
-                    <div class="tab-content">
-                        <div id="schedule" class="tab-pane fade in active">
-                            <!-- Calendly inline widget begin -->
-                            <div class="calendly-inline-widget" data-url="https://calendly.com/blabberjax" style="min-width:320px;height:580px;"></div>
-                            <require from="../resources/scriptinjector"></require>
-                            <scriptinjector url="https://assets.calendly.com/assets/external/widget.js"></scriptinjector>
-                            <!-- Calendly inline widget end -->
-                        </div>
-                        <div id="message" class="tab-pane fade">
-                            <div class="form-wrapper">
+                    <aubs-tabset vertical.bind="vertical" type="tabs" active="0">
+                            <aubs-tab header="Schedule Meeting">
+                                <!-- Calendly inline widget begin -->
+                                <div class="calendly-inline-widget" data-url="https://calendly.com/blabberjax" style="min-width:320px;height:580px;"></div>
+                                <require from="../resources/scriptinjector"></require>
+                                <scriptinjector url="https://assets.calendly.com/assets/external/widget.js"></scriptinjector>
+                                <!-- Calendly inline widget end -->
+                            </aubs-tab>
+                    
+                            <aubs-tab header="Send Message">
+                                <div class="form-wrapper">
                                     <form id="contact-form" method="post" action="#" role="form">
             
                                         <div class="messages"></div>
@@ -93,8 +88,8 @@
                                     
                                     </form>
                                 </div>
-                        </div>
-                    </div>
+                            </aubs-tab>
+                        </aubs-tabset>    
 
                     
                 </div>      
