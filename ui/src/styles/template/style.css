@@ -3009,7 +3009,10 @@ footer {
       -o-transition: all 0.35s ease-in-out;
       -ms-transition: all 0.35s ease-in-out; }
     footer .follow .social li {
-      padding-bottom: 15px; }
+      padding-bottom: 15px; 
+      float: left;
+      width: 3em;
+    }
   footer .copyrights p {
     padding-top: 4px;
     font-size: 13px; }
