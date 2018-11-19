@@ -7,14 +7,19 @@ export default class Skill {
     this.personContext = personContext;
     this.skillContext = skillContext;
     this.person = {};
-    this.roles = [];
-    this.skills = [];
+    this.skillGroups = [];
+    this.guides = [
+      { value: 1, endValue: null, text: 'Beginner', color: '#80D877' },
+      { value: 2, endValue: null, text: 'Intermediate', color: '#57B24D' },
+      { value: 3, endValue: null, text: 'Proficient', color: '#368D2D' },
+      { value: 4, endValue: null, text: 'Advanced', color: '#1C6015' },
+      { value: 4.9, endValue: null, text: 'Guru', color: '#0B3706' }
+    ];
   }
 
   created() {
     this.person = this.personContext.getPerson(0);
     const skillSet = this.skillContext.getSkills(this.person.id);
-    this.roles = _(skillSet).filter(n => n.subtype === 'role').value();
-    this.skills = _(skillSet).filter(n => n.subtype === 'technical').value();
+    this.skillGroups = _(skillSet).groupBy('subtype').value();
   }
 }
