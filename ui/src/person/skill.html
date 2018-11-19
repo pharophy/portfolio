@@ -31,41 +31,20 @@
                         </div>
                     </section>
 
-                    <section class="inner-section" data-section="blog">
+                    <section class="inner-section row" data-section="blog">
                         <require from="resources/value-converters/ObjectKeysValueConverter"></require>
-                        <div repeat.for="groupName of skillGroups | objectKeys" class="table-of-skillsets">
-                            <h2>${groupName} Capabilities</h2>
-
-                            <div class="row masonry-row">
-                
-                                <div class="grid container-fluid text-center">
-                    
-                                    <div id="posts" class="row popup-container">
-
-                                        <require from="resources/value-converters/ObjectArrayValuesValueConverter"></require>
-                                        <!--<div repeat.for="skill of skillGroups | objectArrayValues:groupName" class="grid-item grid-sizer branding col-md-4 col-sm-6">-->
-                                        <div class="grid-item grid-sizer branding col-md-12 col-sm-12">
-                                            <div class="item-wrap">
-                                                <figure class.bind="role.cssClass" data-animation-origin="right"
-                                                        data-animation-duration="500"
-                                                        data-animation-delay="500"
-                                                        data-animation-distance="0px">
-                                                    <require from="components/charts/horizontal-bar-chart"></require>
-                                                    <horizontal-bar-chart element-id="chart_${$index}" data.bind="skillGroups[groupName]" key-prop="name" value-prop="rating" guides.bind="guides"></horizontal-bar-chart>
-                                                </figure>
-                                            </div>
-                                        </div>
-                                        
-                        
-                                    </div>
-                                </div>
-                    
-                            </div>
+                        <div repeat.for="groupName of skillGroups | objectKeys" class="table-of-skillsets col-md-6 col-sm-12">
+                            <h2>${groupName}</h2>
+                            <require from="resources/value-converters/ObjectArrayValuesValueConverter"></require>
+                            <figure class.bind="role.cssClass" data-animation-origin="right"
+                                    data-animation-duration="500"
+                                    data-animation-delay="500"
+                                    data-animation-distance="0px">
+                                <require from="components/charts/horizontal-bar-chart"></require>
+                                <horizontal-bar-chart element-id="chart_${$index}" data.bind="skillGroups[groupName]" key-prop="name" value-prop="rating" guides.bind="guides"></horizontal-bar-chart>
+                            </figure>
                         </div>
-                        
                     </section>
-                
-                    
             </div>
         </div>
         <div slot="footer">
