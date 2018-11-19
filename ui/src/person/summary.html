@@ -119,14 +119,16 @@
                             </h3>
                             <div class="dividewhite4"></div>
                             <div class="experience">
+                                <require from="resources/value-converters/DateFormatValueConverter"></require>
                                 <ul repeat.for="position of positions" class="">
-                                    <li class="date">${position.startDate} - ${position.endDate}</li>
+                                    <li class="date">${position.startDate | dateFormat:'MMM YY':'Present'} - ${position.endDate | dateFormat:'MMM YY':'Present'}</li>
                                     <li class="company uppercase">
-                                        <a>
-                                            ${position.companyName} ${position.officeLocation}
+                                        <!-- TODO: set up links for items in history -->
+                                        <a href="#">
+                                            ${position.title}
                                         </a>
                                     </li>
-                                    <li class="position">${position.title}</li>
+                                    <li class="position">${position.companyName} ${position.officeLocation}</li>
                                 </ul>
                             </div>
                             <a href="/#/person/${person.id}/history" class="btn btn-wh-trans btn-xs">Learn More</a>
