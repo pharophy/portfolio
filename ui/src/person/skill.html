@@ -30,99 +30,28 @@
                             </p>
                         </div>
                     </section>
-                
-                    <section class="inner-section " data-section="blog">
-                        
-                        <h2>Role Capabilities</h2>
 
-                        <div class="dividewhite6"></div>
-                
-                        <div class="row masonry-row">
-                
-                            <div class="grid container-fluid text-center">
-                
-                                <div id="posts" class="row popup-container">
-                    
-                                    <div repeat.for="role of roles" class="grid-item grid-sizer branding col-md-4 col-sm-6">
-                                        <div class="item-wrap">
-                                            <figure class.bind="role.cssClass" data-animation-origin="right"
-                                                    data-animation-duration="500"
-                                                    data-animation-delay="500"
-                                                    data-animation-distance="0px">
-                                                <!--<div class="popup-call">
-                                                    <a href="assets/custom/2.2.0/images/layouts/samuel/blog/02.jpg" class="gallery-item"><i class="flaticon-arrows-4"></i></a>
-                                                </div>-->
-                                                <img src="${role.imageUrl ? role.imageUrl : 'http://via.placeholder.com/360x125/ffffff?text=' + role.name}" 
-                                                    class="img-responsive" alt.bind="role.name"/>
-                                                <figcaption>
-                                                    <div class="post-meta">
-                                                        <span class="yr-xp yr-xp-${role.yearsExperience}">${role.yearsExperience} Years as</span> 
-                                                    </div>
-                                                    <div class="post-header">
-                                                        <h5><a href.bind="role.url">${role.name}</a></h5>
-                                                    </div>
-                                                    <div class="post-entry">
-                                                        <p>${role.description}</p>
-                                                    </div>
-                                                    
-                                                    <!--<div class="post-tag pull-left">
-                                                        <span><a href="#branding" data-filter=".branding">Branding</a></span>
-                                                    </div>
-                                                    <div class="post-more-link pull-right"><a href="blogpost.html">More<i class="fa fa-long-arrow-right right"></i></a></div>-->
-                                                </figcaption>
-                                            </figure>
-                                        </div>
-                                    </div>
-                                    
-                    
-                                </div>
-                            </div>
-                
-                        </div>
-                
-                        <!-- <div class="dividewhite8"></div> -->
-                
-                    </section>
-                    
-                    <section class="inner-section " data-section="blog" style="padding-top:0">
-                        
-                            <h2>Technical Skills</h2>
-    
-                            <div class="dividewhite6"></div>
-                    
+                    <section class="inner-section" data-section="blog">
+                        <require from="resources/value-converters/ObjectKeysValueConverter"></require>
+                        <div repeat.for="groupName of skillGroups | objectKeys" class="table-of-skillsets">
+                            <h2>${groupName} Capabilities</h2>
+
                             <div class="row masonry-row">
-                    
+                
                                 <div class="grid container-fluid text-center">
                     
                                     <div id="posts" class="row popup-container">
-                        
-                                        <div repeat.for="skill of skills" class="grid-item grid-sizer branding grid-skills col-md-2 col-sm-4">
+
+                                        <require from="resources/value-converters/ObjectArrayValuesValueConverter"></require>
+                                        <!--<div repeat.for="skill of skillGroups | objectArrayValues:groupName" class="grid-item grid-sizer branding col-md-4 col-sm-6">-->
+                                        <div class="grid-item grid-sizer branding col-md-12 col-sm-12">
                                             <div class="item-wrap">
-                                                <figure class.bind="skill.cssClass" data-animation-origin="right"
+                                                <figure class.bind="role.cssClass" data-animation-origin="right"
                                                         data-animation-duration="500"
                                                         data-animation-delay="500"
                                                         data-animation-distance="0px">
-                                                    <!--<div class="popup-call">
-                                                        <a href="assets/custom/2.2.0/images/layouts/samuel/blog/02.jpg" class="gallery-item"><i class="flaticon-arrows-4"></i></a>
-                                                    </div> -->
-                                                    <img src="${skill.imageUrl ? skill.imageUrl : 'http://via.placeholder.com/360x125/ffffff?text=' + skill.name}" 
-                                                        class="img-responsive" alt.bind="skill.name"/>
-                                                    <figcaption>
-                                                        <div class="post-meta">
-                                                                <span class="yr-xp yr-xp-${skill.yearsExperience}">${skill.yearsExperience} Years of</span>  
-                                                        </div>
-                                                        <div class="post-header">
-                                                            <h5><a href.bind="skill.url">${skill.name}</a></h5>
-                                                        </div>
-                                                        <!--<div class="post-entry">
-                                                            <p>${skill.description}</p>
-                                                        </div>-->
-                                                        
-                                                        <!--<div class="post-tag pull-left">
-                                                            <span><a href="#branding" data-filter=".branding">Branding</a></span>
-                                                        </div>
-                                                        <div class="post-more-link pull-right"><a href="blogpost.html">More<i class="fa fa-long-arrow-right right"></i></a></div>-->
-                                                    </figcaption>
+                                                    <require from="components/charts/horizontal-bar-chart"></require>
+                                                    <horizontal-bar-chart element-id="chart_${$index}" data.bind="skillGroups[groupName]" key-prop="name" value-prop="rating" guides.bind="guides"></horizontal-bar-chart>
                                                 </figure>
                                             </div>
                                         </div>
@@ -132,10 +61,11 @@
                                 </div>
                     
                             </div>
+                        </div>
+                        
+                    </section>
+                
                     
-                            <!-- <div class="dividewhite8"></div> -->
-                    
-                        </section>
             </div>
         </div>
         <div slot="footer">
