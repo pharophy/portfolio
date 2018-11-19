@@ -19,18 +19,17 @@
                                     data-animation-origin="right"
                                     data-animation-duration="400"
                                     data-animation-delay="200"
-                                    data-animation-distance="50px">Made for Creative Professionals</h4>
+                                    data-animation-distance="50px">${person.title}</h4>
                                 <p class="small color01"
                                 data-animation-origin="right"
                                 data-animation-duration="400"
                                 data-animation-delay="300"
-                                data-animation-distance="50px">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id metus purus. Ut vulputate, est vel tincidunt mattis, orci neque iaculis lectus, et interdum quam felis vel tortor. Fusce ultrices dui quis nunc dignissim faucibus. Ut ac odio quis nibh viverra fringilla ac id nisi. Suspendisse tincidunt augue quis ligula cursus, non efficitur ligula faucibus. Mauris id neque maximus, tincidunt metus et, sodales nulla.
+                                data-animation-distance="50px" innerhtml.bind="person.resumeIntro">
                                 </p>
                             </div>
                         </section>
                     
-                        <section class="inner-section light bg-color01">
+                        <!--<section class="inner-section light bg-color01">
                     
                             <div class="container-fluid nopadding">
                     
@@ -103,10 +102,10 @@
                                 </div>
                             </div>
                     
-                        </section>
+                        </section> -->
                     
                         <!-- Details Block -->
-                        <section id="m-details" class="inner-section light bg-color02">
+                        <section id="m-details" class="inner-section light bg-color02 no-padding-bottom">
                     
                             <div class="container-fluid nopadding">
                     
@@ -114,16 +113,14 @@
                                     data-animation-duration="400"
                                     data-animation-delay="300"
                                     data-animation-distance="30px">
-                                <h3 class="font-accident-two-normal uppercase text-center">Personal qualities</h3>
+                                <h3 class="font-accident-two-normal uppercase text-center">Summary</h3>
                                 <div class="dividewhite1"></div>
-                                <p class="small text-center fontcolor-medium">
-                                    With the Gridus personal theme it’s possible to make an impressive website
-                                    in just 15 minutes.
+                                <p class="small text-center fontcolor-medium" innerhtml.bind="person.resumeSummary">
                                 </p>
-                                <div class="dividewhite6"></div>
+                                <!--<div class="dividewhite6"></div>-->
                                 </div>
                     
-                                <div class="row">
+                                <!--<div class="row">
                                 <div class="col-md-3 infoblock text-center"
                                         data-animation-origin="left"
                                         data-animation-duration="400"
@@ -192,7 +189,7 @@
                                     </div>
                                     <div class="divider-dynamic"></div>
                                 </div>
-                                </div>
+                                </div>-->
                     
                             </div>
                     
@@ -200,7 +197,7 @@
                         <!-- /§Details Block -->
                     
                         <!-- Timeline Block -->
-                        <section id="timeline" class="light inner-section">
+                        <section id="timeline" class="light inner-section no-padding-top">
                     
                             <div class="container-fluid nopadding">
                     
@@ -210,101 +207,48 @@
                                     data-animation-delay="400"
                                     data-animation-distance="30px">
                                 <div class="dividewhite4"></div>
-                                <h3 class="font-accident-two-normal uppercase">Professional Timeline</h3>
-                                <h5 class="font-accident-two-normal uppercase subtitle">Working hard and making the success</h5>
+                                <h3 class="font-accident-two-normal uppercase">Professional History</h3>
+                                <!--<h5 class="font-accident-two-normal uppercase subtitle">${person.subtitle}</h5>
                                 <div class="dividewhite1"></div>
-                                <p class="small fontcolor-medium">
-                                    Customize your website as you want using different colors and 100% free fonts. Build it from pieces and
-                                    blocks as simple as Lego. <br>
-                                    Gridus Website Template is fully responsive, looks and works perfect on any device.
-                                </p>
+                                <p class="small fontcolor-medium" innerhtml.bind="person.resumeSummary">
+                                </p>-->
                                 </div>
                     
                                 <div class="dividewhite4"></div>
                     
                                 <ul class="timeline-vert timeline">
-                                <li>
-                                    <div class="timeline-badge primary"><i class="flaticon-clocks18"></i></div>
-                                    <div class="timeline-panel"
-                                        data-animation-origin="left"
-                                        data-animation-duration="400"
-                                        data-animation-delay="400"
-                                        data-animation-distance="25px">
-                                        <p class="timeline-time fontcolor-invert">Aug 2010 - Nov 2012</p>
-                                        <div class="timeline-photo timeline-samuel-01"></div>
-                                        <div class="timeline-heading">
-                                            <h4 class="font-accident-two-normal uppercase">Bluepixel LLC, London</h4>
-                                            <h6 class="uppercase">Junior Designer</h6>
-                                            <p>
-                                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="timeline-inverted">
-                                    <div class="timeline-badge success"><i class="flaticon-graduation61"></i></div>
-                                    <div class="timeline-panel"
-                                        data-animation-origin="right"
-                                        data-animation-duration="400"
-                                        data-animation-delay="400"
-                                        data-animation-distance="25px">
-                                        <p class="timeline-time fontcolor-invert">March 2013 - Jan 2014</p>
-                                        <div class="timeline-photo timeline-samuel-02"></div>
-                                        <div class="timeline-heading">
-                                            <h4 class="font-accident-two-normal uppercase">Rocket Media, Berlin</h4>
-                                            <h6 class="uppercase">Senior Designer</h6>
-                                            <p>
-                                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="timeline-badge danger"><i class="flaticon-pens15"></i></div>
-                                    <div class="timeline-panel"
-                                        data-animation-origin="left"
-                                        data-animation-duration="400"
-                                        data-animation-delay="400"
-                                        data-animation-distance="25px">
-                                        <p class="timeline-time fontcolor-invert">Jul 2014 - Sep 2015</p>
-                                        <div class="timeline-photo timeline-samuel-03"></div>
-                                        <div class="timeline-heading">
-                                            <h4 class="font-accident-two-normal uppercase">Digital Frog, Wien</h4>
-                                            <h6 class="uppercase">Art Director</h6>
-                                            <p>
-                                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="timeline-inverted info">
-                                    <div class="timeline-badge warning"><i class="flaticon-profile5"></i></div>
-                                    <div class="timeline-panel"
-                                        data-animation-origin="right"
-                                        data-animation-duration="400"
-                                        data-animation-delay="400"
-                                        data-animation-distance="25px">
-                                        <p class="timeline-time fontcolor-invert">Sep 2015 - ...</p>
-                                        <div class="timeline-photo timeline-samuel-04"></div>
-                                        <div class="timeline-heading">
-                                            <h4 class="font-accident-two-normal uppercase">Melted Digital, Paris</h4>
-                                            <h6 class="uppercase">Head of UX Department</h6>
-                                            <p>
-                                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                    
+                                    <li repeat.for="position of positions" class="${ $even ? 'timeline-inverted': '' }">
+                                            <div class="timeline-badge primary"><i class="flaticon-clocks18"></i></div>
+                                            <div class="timeline-panel"
+                                                data-animation-origin="left"
+                                                data-animation-duration="400"
+                                                data-animation-delay="400"
+                                                data-animation-distance="25px">
+                                                <require from="resources/value-converters/DateFormatValueConverter"></require>
+                                                <p class="timeline-time fontcolor-invert">${position.startDate | dateFormat:'MMM YY':'Present'} - ${position.endDate | dateFormat:'MMM YY':'Present'}</p>
+                                                <div class="row">
+                                                    <div class="timeline-photo col-md-4 col-sm-4">
+                                                        <img src.bind="position.imageUrl" alt.bind="position.companyName" title="position.companyName" />
+                                                    </div>
+                                                    <div class="timeline-heading col-md-8 col-sm-8">
+                                                        <h4 class="font-accident-two-normal uppercase">${position.title}</h4>
+                                                        <h6 class="uppercase">${position.companyName}, ${position.officeLocation}</h6>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <p innerhtml.bind="position.description" class="job-description"></p>
+                                                </div>
+                                            </div>
+                                    </li>
                                 </ul>
                     
                                 <div class="text-center">
-                                <a href="#!" class="btn btn-darker"
+                                <a href.bind="resumeLink.url" class="btn btn-darker"
                                     data-animation-origin="bottom"
                                     data-animation-duration="300"
                                     data-animation-delay="600"
                                     data-animation-distance="35px"
-                                >Learn More</a>
+                                >Download Resume</a>
                                 </div>
                     
                                 <div class="dividewhite6"></div>
