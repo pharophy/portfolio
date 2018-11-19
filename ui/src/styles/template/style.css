@@ -3374,3 +3374,17 @@ footer.light {
   list-style-position: inside;
   list-style-type: square;
 }
+
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row.display-flex > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-responsive {
+  max-width:100%;
+}
