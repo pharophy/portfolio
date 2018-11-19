@@ -21,7 +21,7 @@
                     <aubs-tabset vertical.bind="vertical" type="tabs" active="0">
                             <aubs-tab header="Schedule Meeting">
                                 <!-- Calendly inline widget begin -->
-                                <div class="calendly-inline-widget" data-url="https://calendly.com/blabberjax" style="min-width:320px;height:580px;"></div>
+                                <div class="calendly-inline-widget" data-url.bind="person.scheduleUrl" style="min-width:320px;height:580px;"></div>
                                 <require from="../resources/scriptinjector"></require>
                                 <scriptinjector url="https://assets.calendly.com/assets/external/widget.js"></scriptinjector>
                                 <!-- Calendly inline widget end -->
@@ -29,7 +29,7 @@
                     
                             <aubs-tab header="Send Message">
                                 <div class="form-wrapper">
-                                    <form id="contact-form" method="post" action="#" role="form">
+                                    <form id="contact-form" method="post" submit.delegate="sendMessage()" role="form">
             
                                         <div class="messages"></div>
                                     
