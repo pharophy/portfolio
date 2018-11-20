@@ -2,6 +2,7 @@ import environment from './environment';
 import {PLATFORM} from 'aurelia-pal';
 import * as Bluebird from 'bluebird';
 import $ from 'jquery';
+import '@babel/polyfill';
 
 // remove out if you don't want a Promise polyfill (remove also from webpack.config.js)
 Bluebird.config({ warnings: { wForgottenReturn: false } });
