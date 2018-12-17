@@ -3,6 +3,9 @@ import {PLATFORM} from 'aurelia-pal';
 import * as Bluebird from 'bluebird';
 import $ from 'jquery';
 import '@babel/polyfill';
+import 'popper.js';
+import 'bootstrap';
+import { Modal } from 'bootstrap';
 
 // remove out if you don't want a Promise polyfill (remove also from webpack.config.js)
 Bluebird.config({ warnings: { wForgottenReturn: false } });
@@ -23,6 +26,8 @@ export function configure(aurelia) {
 
   //custom plugins:
   window.$ = window.jQuery = $;
+  //TODO: to add additional bootstrap components, add to import above and to jQuery below
+  $.modal = Modal;
   aurelia.use.plugin(PLATFORM.moduleName('aurelia-bootstrap'), config => config.options.version = 4);
 
   if (environment.testing) {
