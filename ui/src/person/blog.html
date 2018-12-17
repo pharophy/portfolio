@@ -20,13 +20,8 @@
             <section class="inner-section">            
                 <div class="container-fluid nopadding">
 
-                    <div class="modal fade bd-example-modal-lg" data-backdrop="static" data-keyboard="false" tabindex="-1">
-                        <div class="modal-dialog modal-sm">
-                            <div class="modal-content" style="width: 48px">
-                                <span class="fa fa-spinner fa-spin fa-3x"></span>
-                            </div>
-                        </div>
-                    </div>
+                    <require from='components/_shared/spinner-inline'></require>
+                    <spinner-inline loading.bind="loading"></spinner-inline>
 
                     <div class="card-columns blog-grid">
                         <article repeat.for="blog of blogEntries" id.bind="blog.id" class="post card" data-animation-origin="top" data-animation-duration="500" data-animation-delay="500" data-animation-distance="30px" data-sr-id="10">
