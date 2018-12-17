@@ -1,6 +1,10 @@
+import { bindable } from 'aurelia-framework';
 import personContext from 'models/person';
 import blogContext from 'models/blog-entry';
+
 export default class Blog {
+  @bindable blogEntries;
+
   constructor() {
     this.personContext = personContext;
     this.blogContext = blogContext;
@@ -8,8 +12,8 @@ export default class Blog {
     this.blogEntries = [];
   }
 
-  created() {
+  async activate() {
     this.person = this.personContext.getPerson(0);
-    this.blogEntries = this.blogContext.getBlogEntries(this.person.id);
+    this.blogEntries = await this.blogContext.getBlogEntries(this.person.id);
   }
 }
