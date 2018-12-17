@@ -3378,6 +3378,10 @@ footer.light {
   max-width:100%;
 }
 
+.spinner-container {
+  margin: 0 auto;
+}
+
 /* custom responsive section */
 @media (max-width: 992px) {
   /* blogs */
