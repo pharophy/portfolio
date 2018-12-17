@@ -20,6 +20,7 @@
     "jquery": "^3.2.1",
     "lodash": "^4.17.10",
     "moment": "^2.22.2",
+    "popper.js": "^1.14.6",
     "tether": "^1.4.5",
     "velocity-animate": "^1.5.2"
   },
