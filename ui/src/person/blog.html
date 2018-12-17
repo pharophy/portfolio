@@ -19,21 +19,28 @@
             <!-- Blog Block -->
             <section class="inner-section">            
                 <div class="container-fluid nopadding">
-                    <div class="row">
-                        <article repeat.for="blog of blogEntries" id.bind="blog.id" class="post-block col-md-12 post hentry" data-animation-origin="top" data-animation-duration="500" data-animation-delay="500" data-animation-distance="30px" data-sr-id="10">
-                            <div class="post-detail">
-                                <h3 class="entry-title"><a href.bind="blog.url">${blog.title}</a></h3>
+
+                    <div class="modal fade bd-example-modal-lg" data-backdrop="static" data-keyboard="false" tabindex="-1">
+                        <div class="modal-dialog modal-sm">
+                            <div class="modal-content" style="width: 48px">
+                                <span class="fa fa-spinner fa-spin fa-3x"></span>
                             </div>
-                            <div class="img-wrap">
+                        </div>
+                    </div>
+
+                    <div class="card-columns blog-grid">
+                        <article repeat.for="blog of blogEntries" id.bind="blog.id" class="post card" data-animation-origin="top" data-animation-duration="500" data-animation-delay="500" data-animation-distance="30px" data-sr-id="10">
+                            <div class="img-wrap card-img-wrap">
                                 <a href.bind="blog.url">
                                     <img class="img-responsive" src="${blog.imageUrl}" />
                                 </a>
                             </div>
-                            <div class="post-excerpt">
-                                <p>${blog.shortDescription}</p>
-                            </div>
-                            <div class="">
-                                <a href.bind="blog.url" class="btn btn-default btn-darker">Continue reading...</a>
+                            <div class="card-body">
+                                <h3 class="entry-title card-title"><a href.bind="blog.url" innerhtml.bind="blog.title"></a></h3>
+                                <div class="card-text">
+                                    <p innerhtml.bind="blog.shortDescription"></p>
+                                    <a href.bind="blog.url" class="btn btn-default btn-darker">Continue reading...</a>
+                                </div>
                             </div>
                         </article>
                     </div>
