@@ -15,13 +15,13 @@ export default class Contact {
       FormName: '[SSI Design] Person Contact Form',
       FormID: 1,
       FormDownloadUrl: 'https://www.blabberjax.com/thank-you.aspx',
-      FormFields: {
-        FirstName: document.getElementById('form_name').value,
-        LastName: document.getElementById('form_lastname').value,
-        EmailAddress: document.getElementById('form_email').value,
-        PhoneNumber: document.getElementById('form_phone').value,
-        CommentNotes: document.getElementById('form_message').value
-      }
+      FormFields: [
+        { FieldName: 'FirstName', FieldValue: document.getElementById('form_name').value },
+        { FieldName: 'LastName', FieldValue: document.getElementById('form_lastname').value },
+        { FieldName: 'EmailAddress', FieldValue: document.getElementById('form_email').value },
+        { FieldName: 'PhoneNumber', FieldValue: document.getElementById('form_phone').value },
+        { FieldName: 'CommentNotes', FieldValue: document.getElementById('form_message').value }
+      ]
     };
 
     //TODO: need to allow CORS for domain [svr side on blabberjax.com]
