@@ -88,6 +88,7 @@ export class HorizontalBarChart {
       range.label.fill = range.grid.stroke;
       range.label.inside = false;
       range.label.text = guide.text;
+      range.label.fontSize = '10px';
       range.label.align = 'top';
       range.label.verticalCenter = 'bottom';
     }
