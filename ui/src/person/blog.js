@@ -16,10 +16,17 @@ export class Blog {
 
   async activate() {
     this.person = this.personContext.getPerson(0);
-    let queryPromise = this.blogContext.getBlogEntries(this.person.id);
-    queryPromise.then(data => {
-      this.blogEntries = data;
+    let sessionCache = sessionStorage.getItem('blogEntries');
+    if (!sessionCache) {
+      let queryPromise = this.blogContext.getBlogEntries(this.person.id);
+      queryPromise.then(data => {
+        this.blogEntries = data;
+        sessionStorage.setItem('blogEntries', JSON.stringify(data));
+        this.loading = false;
+      });
+    } else {
+      this.blogEntries = JSON.parse(sessionCache);
       this.loading = false;
-    });
+    }
   }
 }
