@@ -43,7 +43,10 @@ export class HorizontalBarChart {
     });
 
     if (this.guides) {
-      this.createRanges(valueAxis, this.guides);
+      let ranges = this.createRanges(valueAxis, this.guides);
+      $(window).resize(() => {
+        this.handleLabelDisplay(ranges);
+      });
     }
 
     let series = chart.series.push(new am4charts.ColumnSeries());
@@ -67,7 +70,23 @@ export class HorizontalBarChart {
     });
   }
 
+  handleLabelDisplay(ranges) {
+    const width = $('.chartwrapper').width();
+    if (width <= 468.667) {
+      let i = 1;
+      _(ranges).forEach(r => {
+        r.label.visible = (i % 2) ? true : false;
+        i++;
+      });
+    } else {
+      _(ranges).forEach(r => {
+        r.label.visible = true;
+      });
+    }
+  }
+
   createRanges(valueAxis, guides) {
+    let ranges = [];
     for (const guide of guides) {
       let range = valueAxis.axisRanges.create();
       range.value = guide.value;
@@ -88,9 +107,11 @@ export class HorizontalBarChart {
       range.label.fill = range.grid.stroke;
       range.label.inside = false;
       range.label.text = guide.text;
-      range.label.fontSize = '10px';
       range.label.align = 'top';
       range.label.verticalCenter = 'bottom';
+      ranges.push(range);
     }
+    this.handleLabelDisplay(ranges);
+    return ranges;
   }
 }
