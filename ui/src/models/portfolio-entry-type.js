@@ -1,0 +1,18 @@
+
+export default class PortfolioEntryType {
+  constructor(name, key, title, shortDescription, id = 0) {
+    this.id = id;
+    this.key = key;
+    this.name = name;
+    this.title = title;
+    this.shortDescription = shortDescription;
+  }
+
+  static async getPortfolioEntryTypes(personId) {
+    return [
+      new PortfolioEntryType('Software Engineering', 'software-engineering', null, null, 1),
+      new PortfolioEntryType('Website Design', 'website-design', null, null, 2),
+      new PortfolioEntryType('Marketing Automation', 'marketing-automation', null, null, 3)
+    ];
+  }
+}
