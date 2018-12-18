@@ -73,9 +73,10 @@
             
                     <div id="isotope-filters" class="port-filter port-filter-light text-center" data-animation-origin="top" data-animation-duration="500" data-animation-delay="200" data-animation-distance="25px" data-sr-id="14">
                         <ul>
-                            <li><a href="#cat1" data-filter="*">All</a></li>
-                            <li><a href="#cat2" data-filter=".web">Custom Software Platforms</a></li>
-                            <li><a href="#cat3" data-filter=".marketing">Internet Marketing</a></li>
+                            <li><a href="#/person/${person.id}/portfolio?filter=all" class="iso-filter active" data-filter="*">All</a></li>
+                            <li><a href="#/person/${person.id}/portfolio?filter=software-engineering" class="iso-filter" data-filter="software-engineering">Software Engineering</a></li>
+                            <li><a href="#/person/${person.id}/portfolio?filter=website-design" class="iso-filter" data-filter="website-design">Website Design</a></li>
+                            <li><a href="#/person/${person.id}/portfolio?filter=marketing-automation" class="iso-filter" data-filter="marketing-automation">Internet Marketing</a></li>
                         </ul>
                     </div>
             
@@ -85,9 +86,9 @@
             
                         <div class="grid container-fluid text-center">
             
-                            <div id="posts" class="row popup-container">
-            
-                                <div repeat.for="item of portfolioEntries" class="grid-item web col-md-4 col-sm-6">
+                            <div id="portfolio-grid" class="row popup-container">
+                                <require from="resources/value-converters/ArrayToStringValueConverter"></require>
+                                <div repeat.for="item of portfolioEntries" class="${item.types | arrayToString:'key':' ':'grid-item web col-md-4 col-sm-6' }">
                                     <div class="item-wrap">
                                         <figure class="effect-goliath" data-animation-origin="left" data-animation-duration="600" data-animation-delay="400" data-animation-distance="100px" data-sr-id="15">
                                             <div class="popup-call">
@@ -97,8 +98,20 @@
                                             <figcaption>
                                                 <div class="fig-description">
                                                     <h3>${item.title}</h3>
-                                                    <p>
-                                                        <span repeat.for="skill of item.skills">#${skill.name} </span>
+                                                    <p class="short-description">${item.shortDescription}</p>
+                                                    <div class="row">
+                                                        <div class="col-md-6 skills tags">
+                                                            <h4 class="tags-heading">Skills</h4>
+                                                            <ul class="tags-list">
+                                                                <li repeat.for="skill of item.skills">#${skill.name}</li>
+                                                            </ul>
+                                                        </div>
+                                                        <div class="col-md-6 types tags">
+                                                            <h4 class="tags-heading">Project Type</h4>
+                                                            <ul class="tags-list">
+                                                                <li repeat.for="type of item.types">#${type.name}</li>
+                                                            </ul>
+                                                        </div>
                                                     </p>
                                                 </div>
                                                 <a href="#/person/${person.id}/portfolio/item/${item.id}"></a>
