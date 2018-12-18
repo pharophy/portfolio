@@ -24,7 +24,7 @@ export default class Summary {
     this.portfolioEntries = [];
   }
 
-  created() {
+  async created() {
     this.person = this.personContext.getPerson(0);
     this.navigationLinks = this.navigationLinkContext.getNavigationLinks(this.person.id);
     //this.skills = _(this.navigationLinks).find(n => n.type === 'skill');
@@ -40,7 +40,7 @@ export default class Summary {
     this.website = _(this.navigationLinks).find(n => n.subtype === 'website');
 
     this.positions = this.positionContext.getPositions(this.person.id);
-    this.portfolioEntries = this.portfolioContext.getPortfolioEntries(this.person.id);
+    this.portfolioEntries = await this.portfolioContext.getPortfolioEntries(this.person.id);
     //TODO: need to determine how to handle content sections
     //TODO: set up routing for other pages
   }
