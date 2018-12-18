@@ -2,6 +2,7 @@ import { PLATFORM } from 'aurelia-framework';
 
 export class App {
   configureRouter(config, router) {
+    config.addPipelineStep('postcomplete', PostCompleteStep);
     config.map([
       //{ route: '',  moduleId: 'home',   title: 'Home'},
 
@@ -17,5 +18,12 @@ export class App {
     ]);
 
     this.router = router;
+  }
+}
+
+class PostCompleteStep {
+  run(routingContext, next) {
+    $(document).scrollTop(0);
+    return next();
   }
 }
