@@ -1,7 +1,8 @@
 import Skill from 'models/skill';
+import PortfolioEntryType from 'models/portfolio-entry-type';
 
 export default class PortfolioEntry {
-  constructor(title, shortDescription, description, url, images, skills, id = 0) {
+  constructor(title, shortDescription, description, url, images, skills, types, id = 0) {
     this.id = id;
     this.title = title;
     this.shortDescription = shortDescription;
@@ -10,9 +11,10 @@ export default class PortfolioEntry {
     this.images = images;
     this.defaultImage = images[0];
     this.skills = skills;
+    this.types = types;
   }
 
-  static getPortfolioEntries(personId) {
+  static async getPortfolioEntries(personId) {
     let portfolioEntries = [
       new PortfolioEntry(
         'Custom Analytics Platform',
@@ -26,7 +28,10 @@ export default class PortfolioEntry {
         ],
         [
           new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
-          new Skill('SAP', '/sap', 'skill', 'ui-menu-color03', 2, 'This is an architect description'),
+          new Skill('SAP', '/sap', 'skill', 'ui-menu-color03', 2, 'This is an architect description')
+        ],
+        [
+          new PortfolioEntryType('Software Engineering', 'software-engineering', null, null, 1)
         ],
         0
       ),
@@ -42,7 +47,47 @@ export default class PortfolioEntry {
         ],
         [
           new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
-          new Skill('SAP', '/sap', 'skill', 'ui-menu-color03', 2, 'This is an architect description'),
+          new Skill('SAP', '/sap', 'skill', 'ui-menu-color03', 2, 'This is an architect description')
+        ],
+        [
+          new PortfolioEntryType('Software Engineering', 'software-engineering', null, null, 1),
+          new PortfolioEntryType('Website Design', 'website-design', null, null, 2),
+          new PortfolioEntryType('Marketing Automation', 'marketing-automation', null, null, 3)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'Main Attractions',
+        'This is a short desc of clt website',
+        'This is a description of the clt website and services',
+        null,
+        [
+          'http://designbyssi.com/App_Themes/default/images/portfolio/nj-web-design/mainattractions-full.jpg'
+        ],
+        [
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('SAP', '/sap', 'skill', 'ui-menu-color03', 2, 'This is an architect description')
+        ],
+        [
+          new PortfolioEntryType('Website Design', 'website-design', null, null, 2)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'Main Attractions',
+        'This is a short desc of clt website',
+        'This is a description of the clt website and services',
+        null,
+        [
+          'http://designbyssi.com/App_Themes/default/images/portfolio/nj-web-design/millstone-river-creamery.jpg'
+        ],
+        [
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('SAP', '/sap', 'skill', 'ui-menu-color03', 2, 'This is an architect description')
+        ],
+        [
+          new PortfolioEntryType('Website Design', 'website-design', null, null, 2),
+          new PortfolioEntryType('Marketing Automation', 'marketing-automation', null, null, 3)
         ],
         0
       )
