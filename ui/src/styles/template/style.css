@@ -2812,6 +2812,11 @@ section h3 {
   display: block;
   line-height: 12px;
 }
+
+#pro-experience a, #circle-skills h3 a {
+  color:inherit;
+}
+
 #pro-experience a,
 #pro-experience a:hover,
 #pro-experience a:focus {
