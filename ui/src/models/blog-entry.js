@@ -8,7 +8,6 @@ export default class BlogEntry {
     this.url = url;
     this.imageUrl = imageUrl;
     this.shortDescription = shortDescription;
-    this.id = id;
     this.publishDate = pubDate;
   }
 
