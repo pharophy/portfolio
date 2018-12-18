@@ -1,8 +1,8 @@
 import {customElement, bindable } from 'aurelia-framework';
 import * as am4core from '@amcharts/amcharts4/core';
 import * as am4charts from '@amcharts/amcharts4/charts';
+// eslint-disable-next-line
 import am4themes_animated from '@amcharts/amcharts4/themes/animated';
-import _ from 'lodash';
 
 @customElement('horizontal-bar-chart')
 export class HorizontalBarChart {
