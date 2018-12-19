@@ -41,8 +41,12 @@ export default class Summary {
 
     this.positions = this.positionContext.getPositions(this.person.id);
     this.portfolioEntries = await this.portfolioContext.getPortfolioEntries(this.person.id);
-    //TODO: need to determine how to handle content sections
-    //TODO: set up routing for other pages
+    this.portfolioEntries = _(this.portfolioEntries)
+      .filter(e =>
+        _(e.types).some(t => t.key === 'software-engineering')
+      )
+      .take(3)
+      .value();
   }
 
   activate(params, routeConfig) {
