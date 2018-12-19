@@ -52,7 +52,7 @@ export class HorizontalBarChart {
     let series = chart.series.push(new am4charts.ColumnSeries());
     series.dataFields.categoryY = this.keyProp;
     series.dataFields.valueX = this.valueProp;
-    //TODO: uncomment when descriptions are better
+    //BACKLOG: uncomment when descriptions are better
     //series.tooltipText = '{description}';
     series.tooltip.dy = -10;
     series.sequencedInterpolation = true;
