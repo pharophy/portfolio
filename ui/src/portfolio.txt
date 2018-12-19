@@ -1,0 +1,62 @@
+BlabberJax:
+- BlabberJax CMS
+- BlabberJax Content Planner
+- BlabberJax Engage
+- BlabberJax Contacts
+- BlabberJax Data
+  - BlabberJax eCommerce / PO
+- BlabberJax Reporting (Google Analytics/Charts)
+- BlabberJax Support (EWS)
+- BlabberJax Membership
+- BlabberJax Construction Site Management
+
+App Development:
+1. Colgate Analytics Platform
+2. Dalegroup News
+3. Canttopthat.com
+4. Portfolio Site
+5. Snail Mail Analytics
+6. Student Feedback
+7. Training Calendar
+8. Municipal Bonds (ecommerce)
+
+Clients:
+1.	Advanced Built Structures (lost)
+2.	www.airlineticket-center.com
+3.	www.air-savings.com
+4.	www.ark-floors.com
+5.	www.awesomeitv.com
+6.	www.bidservice.com
+7.	Blabberjax.com
+8.	Bookmyflight.com (copy of air-savings.com)
+9.	www.closereachsolutions.com
+10. corpgraphicsolutions.com
+11. Dalegroup.com (CMS/Site, Mktg, Intranet, Email Mktg, News App)
+12.	www.dalegroupaviation.com
+13. designbyssi.com
+14.	ForwardFocusInc.com
+15.	www.fullcyclenutrition.net (lost)
+16.	ITRubicon.com
+17.	Life Furniture
+18.	www.mainattractions.com
+19.	www.mdpsystemsinc.com/staging
+20.	Millrun.com
+21.	Millstone River Creamery
+22.	porterscleaning.com
+23.	www.s-c-r.com
+24.	www.sinisipaving.com
+25. sonnychatrath.com
+26. tedspeak.com
+27. upandaway.com
+28.	www.vivamodernfurniture.com
+29. Bondex (broken into apps: Snail Mail Analytics, Municipal Bonds)
+
+
+Designs / SEO:
+1. Applegate
+2. Fosterhunt
+3. Gold2Cash (no SEO)
+4. Nashdance (no SEO)
+5. Pizza And
+6. Pizzeta
+7. Motivational Blog (MFaulkner)
