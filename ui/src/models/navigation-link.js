@@ -25,7 +25,7 @@ export default class NavigationLink {
       new NavigationLink('Blog', '#/person/1/blog', 'main-nav', null, 'ui-menu-color05', 'flaticon-pens15', 50),
       new NavigationLink('Contact', '#/person/1/contact', 'main-nav', null, 'ui-menu-color06', 'flaticon-placeholders4', 60),
       new NavigationLink('Linkedin', 'https://www.linkedin.com/in/shawnsouto/', 'social', 'linkedin', null, 100),
-      new NavigationLink('Twitter', 'https://www.twitter.com/', 'social', 'twitter', null, 200),
+      new NavigationLink('Twitter', 'https://twitter.com/ssidesign', 'social', 'twitter', null, 200),
       new NavigationLink('Website', 'https://blabberjax.com', 'social', 'website', null, 300),
       new NavigationLink('Resume', '/assets/attachments/shawn-souto-resume.doc', 'resume', null, 400)
     ];
