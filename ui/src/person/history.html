@@ -217,7 +217,7 @@
                                 <div class="dividewhite4"></div>
                     
                                 <ul class="timeline-vert timeline">
-                                    <li repeat.for="position of positions" class="${ $even ? 'timeline-inverted': '' }">
+                                    <li repeat.for="position of positions" class="${ $even ? 'timeline-inverted animated': 'animated' }" data-animation-name="${ $even ? 'slideInLeft': 'slideInRight' }">
                                             <div class="timeline-badge primary"><i class="flaticon-clocks18"></i></div>
                                             <div class="timeline-panel"
                                                 data-animation-origin="left"
