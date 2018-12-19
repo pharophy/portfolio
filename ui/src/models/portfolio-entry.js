@@ -221,21 +221,21 @@ export default class PortfolioEntry {
         0
       ),
       new PortfolioEntry(
-        'Colgate Analytics Platform',
+        'Custom Analytics Platform',
         'Custom built platform similar to Qlik or Tableau with powerful story telling capabilities.',
         null,
         null,
         [
-          '/assets/portfolio/apps/colgate-analytics-platform/Slide20.JPG',
-          '/assets/portfolio/apps/colgate-analytics-platform/Slide19.JPG',
-          '/assets/portfolio/apps/colgate-analytics-platform/Slide22.JPG',
-          '/assets/portfolio/apps/colgate-analytics-platform/Slide21.JPG',
-          '/assets/portfolio/apps/colgate-analytics-platform/Slide23.JPG',
-          '/assets/portfolio/apps/colgate-analytics-platform/Slide24.JPG',
-          '/assets/portfolio/apps/colgate-analytics-platform/Slide18.JPG',
-          '/assets/portfolio/apps/colgate-analytics-platform/Slide16.JPG',
-          '/assets/portfolio/apps/colgate-analytics-platform/Slide15.JPG',
-          '/assets/portfolio/apps/colgate-analytics-platform/Slide10.JPG'
+          '/assets/portfolio/apps/custom-analytics-platform/Slide20.JPG',
+          '/assets/portfolio/apps/custom-analytics-platform/Slide19.JPG',
+          '/assets/portfolio/apps/custom-analytics-platform/Slide22.JPG',
+          '/assets/portfolio/apps/custom-analytics-platform/Slide21.JPG',
+          '/assets/portfolio/apps/custom-analytics-platform/Slide23.JPG',
+          '/assets/portfolio/apps/custom-analytics-platform/Slide24.JPG',
+          '/assets/portfolio/apps/custom-analytics-platform/Slide18.JPG',
+          '/assets/portfolio/apps/custom-analytics-platform/Slide16.JPG',
+          '/assets/portfolio/apps/custom-analytics-platform/Slide15.JPG',
+          '/assets/portfolio/apps/custom-analytics-platform/Slide10.JPG'
         ],
         [
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
