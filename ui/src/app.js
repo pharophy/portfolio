@@ -19,10 +19,69 @@ export class App {
 
     this.router = router;
   }
+
+  attached() {
+    //enable all animations
+    let app = this;
+    $(document).ready(() => {
+      $(window).scroll(() => { app.runAnimations(app); });
+      app.runOnceAnimations(app);
+      app.runAnimations(app);
+    });
+  }
+
+  isScrolledIntoView(el) {
+    const rect = el.getBoundingClientRect();
+    const vWidth = window.innerWidth || doc.documentElement.clientWidth;
+    const vHeight = window.innerHeight || doc.documentElement.clientHeight;
+    const efp = (x, y) => { return document.elementFromPoint(x, y); };
+
+    // Return false if it's not in the viewport
+    if (rect.right < 0 || rect.bottom < 0 || rect.left > vWidth || rect.top > vHeight) {
+      return false;
+    }
+
+    // Return true if any of its four corners are visible
+    return (
+      el.contains(efp(rect.left,  rect.top))
+      ||  el.contains(efp(rect.right, rect.top))
+      ||  el.contains(efp(rect.right, rect.bottom))
+      ||  el.contains(efp(rect.left,  rect.bottom))
+    );
+  }
+
+  //run once animations by runnning on app.attached()
+  runOnceAnimations(app) {
+    $('.animated-once:not(.animated-complete)').addClass('animated');
+  }
+
+  runAnimations(app) {
+    $('.animated:not(.animated-complete)').each(function() {
+      if (app.isScrolledIntoView(this)) {
+        let attrAnimationType = $(this).attr('data-animation-name');
+        if (attrAnimationType) {
+          $(this).addClass(attrAnimationType);
+          $(this).addClass('animated-complete');
+        }
+        //BACKLOG: get this working properly:
+        /*else {
+          const params = {};
+          params[$(this).data('animation-origin')] = $(this).data('animation-distance');
+          $(this)
+            .delay($(this).data('animation-delay'))
+            .animate(
+              params,
+              $(this).data('animation-duration')
+            );
+          $(this).css('display', 'block');
+        }*/
+      }
+    });
+  }
 }
 
 class PostCompleteStep {
-  run(routingContext, next) {
+  run(routingContext, next, prev) {
     $(document).scrollTop(0);
     return next();
   }
