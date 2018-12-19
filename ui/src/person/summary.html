@@ -110,50 +110,61 @@
             <section id="professional" class="container-fluid" data-section="home">
     
                 <div class="row flex-row">
-                    <div id="pro-experience" class="col-md-4 flex-column dark nopadding ui-block-color02 flex-col" 
+                    <div id="pro-experience" class="animated" data-animation-name="fadeInLeft"
                         data-animation-origin="bottom" data-animation-duration="300" 
                         data-animation-delay="800" data-animation-distance="200px">
                         <div class="padding-50 flex-panel">
-                            <h3 class="font-accident-two-normal uppercase title">
-                                <a href="/#/person/${person.id}/history">Employment</a>
-                            </h3>
+                            <div class="row">
+                                <h3 class="font-accident-two-normal uppercase title col-md-6">
+                                    <a href="/#/person/${person.id}/history">Employment</a>
+                                </h3>
+                                <div class="col-md-6 text-right">
+                                    <a href="/#/person/${person.id}/history" class="btn btn-wh-trans btn-xs">See more</a>
+                                </div>
+                            </div>
+                            
                             <div class="dividewhite4"></div>
                             <div class="experience">
                                 <require from="resources/value-converters/DateFormatValueConverter"></require>
                                 <ul repeat.for="position of positions" class="">
                                     <li class="date">${position.startDate | dateFormat:'MMM YY':'Present'} - ${position.endDate | dateFormat:'MMM YY':'Present'}</li>
                                     <li class="company uppercase">
-                                        <!-- TODO: set up links for items in history -->
-                                        <a href="#">
-                                            ${position.title}
-                                        </a>
+                                        <!--<a href="#">-->
+                                        ${position.title}
+                                        <!--</a>-->
                                     </li>
                                     <li class="position">${position.companyName} ${position.officeLocation}</li>
                                 </ul>
                             </div>
-                            <a href="/#/person/${person.id}/history" class="btn btn-wh-trans btn-xs">Learn More</a>
+                            <!--<a href="/#/person/${person.id}/history" class="btn btn-wh-trans btn-xs">Learn More</a>-->
                             <div class="dividewhite1"></div>
                         </div>
                     </div>
                     <div id="circle-skills" class="col-md-8 flex-column dark nopadding ui-block-color03 flex-col" data-section="progress" data-animation-origin="right"
                         data-animation-duration="400" data-animation-delay="1100" data-animation-distance="200px">
                         <div class="padding-50 flex-panel">
-                            <h3 class="font-accident-two-normal uppercase title">
-                                <a href="/#/person/${person.id}/portfolio">Portfolio</a>
-                            </h3>
+                            <div class="row">
+                                <h3 class="font-accident-two-normal uppercase title col-md-6">
+                                    <a class="add-btn" href="/#/person/${person.id}/portfolio">Portfolio</a>
+                                </h3>
+                                <div class="col-md-6 text-right">
+                                        <a href="/#/person/${person.id}/portfolio" class="btn btn-wh-trans btn-xs">See more</a>
+                                </div>
+                            </div>
+                            
                             <div class="dividewhite1"></div>
                             <div class="row">
     
-                                <div repeat.for="entry of portfolioEntries" class="col-md-4 col-sm-4 col-xs-12">
+                                <div repeat.for="entry of portfolioEntries" class="col-md-4 col-sm-4 col-xs-12 animated" data-animation-name="flipInY">
                                     <div class="text-center">
                                         <div class="preview-image thumbnail">
                                             <img src.bind="entry.defaultImage" />
                                         </div>
                                         <h4 class="font-accident-two-bold uppercase">${entry.title}</h4>
-                                        <p class="font-regular-normal">
+                                        <!--<p class="font-regular-normal">
                                             ${entry.shortDescription}
                                         </p>
-                                        <a href="/#/person/${person.id}/portfolio-entry?id=${entry.id}" class="btn btn-wh-trans btn-xs">Learn More</a>
+                                        <a href="/#/person/${person.id}/portfolio-entry?id=${entry.id}" class="btn btn-wh-trans btn-xs">Learn More</a>-->
                                     </div>
                                     <div class="dividewhite1"></div>
                                 </div>
