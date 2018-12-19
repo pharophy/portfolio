@@ -1,5 +1,7 @@
 /* Fonts */
 @import url("https://fonts.googleapis.com/css?family=Exo+2:100,200,300,400,400i,500,600,700,800,900|Open+Sans:300,400,400i,600,700,800");
+
+@import url('../../../node_modules/animate.css/animate.css');
 /* Colors */
 /*------------------------------------------------------------------
 [Color Scheme / Colors, textures]
@@ -4462,7 +4464,6 @@ footer.light .copyrights {
     .tags-list li {
       font-size:10px;
     }
-
 
 /* custom responsive section */
 @media (max-width: 992px) {
