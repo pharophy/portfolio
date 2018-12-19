@@ -11,8 +11,10 @@ export class App {
       { route: 'person/:id/portfolio',  moduleId: PLATFORM.moduleName('person/portfolio'),   title: 'My Portfolio', layoutView: PLATFORM.moduleName('components/_shared/_layout.html') },
       { route: 'person/:id/skills',  moduleId: PLATFORM.moduleName('person/skill'),   title: 'My Skills', layoutView: PLATFORM.moduleName('components/_shared/_layout.html') },
       { route: 'person/:id/contact',  moduleId: PLATFORM.moduleName('person/contact'),   title: 'Contact Me', layoutView: PLATFORM.moduleName('components/_shared/_layout.html') },
-      { route: 'person/:id/blog',  moduleId: PLATFORM.moduleName('person/blog'),   title: 'Recent Posts', layoutView: PLATFORM.moduleName('components/_shared/_layout.html')},
-      { route: 'skill/:skill',  moduleId: PLATFORM.moduleName('skills/detail'),   title: 'Skill Details', layoutView: PLATFORM.moduleName('components/_shared/_layout.html')}
+      { route: 'person/:id/blog',  moduleId: PLATFORM.moduleName('person/blog'),   title: 'Recent Posts', layoutView: PLATFORM.moduleName('components/_shared/_layout.html')}//,
+      //TODO: skill route { route: 'skill/:skill',  moduleId: PLATFORM.moduleName('skills/detail'),   title: 'Skill Details', layoutView: PLATFORM.moduleName('components/_shared/_layout.html')}
+      //TODO: portfolio-entry route
+      //TODO: resume entry route
     ]);
 
     this.router = router;
