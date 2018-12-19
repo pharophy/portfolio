@@ -43,7 +43,7 @@ export default class Summary {
     this.portfolioEntries = await this.portfolioContext.getPortfolioEntries(this.person.id);
     this.portfolioEntries = _(this.portfolioEntries)
       .filter(e =>
-        _(e.types).some(t => t.key === 'software-engineering')
+        _(e.types).some(t => t.key === 'blabberjax')
       )
       .take(3)
       .value();
