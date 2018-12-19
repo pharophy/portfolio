@@ -24,7 +24,6 @@ export default class Contact {
       ]
     };
 
-    //TODO: need to allow CORS for domain [svr side on blabberjax.com]
     //TODO: set up result messages, not an alert
     let request = $.ajax({
       url: 'https://www.blabberjax.com/bjx_code/plugins/bjxEngage/Services/FormHandler.asmx/SubmitForm',
