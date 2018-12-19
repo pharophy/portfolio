@@ -20,10 +20,11 @@
                 <div class="col-sm-4">
                     <h5 class="font-accident-two-bold uppercase">Newsletter</h5>
                     <div class="dividewhite1"></div>
-                    <label for="tbxEmail">Your Email</label>
-                    <input id="tbxEmail" class="newsletter-email" type="email" required="" name="ne" placeholder="email@domain.com">
-                    <!-- TODO: connect signup button to bjxEngage action (like contact form) -->
-                    <a href="#!" class="btn btn-wh-trans btn-xs">Sign up!</a>
+                    <form id="contact-form" method="post" submit.delegate="signUp()" role="form">
+                        <label for="newsl_form_email">Your Email</label>
+                        <input id="newsl_form_email" class="newsletter-email" type="email" required="" name="ne" placeholder="email@domain.com">
+                        <button class="btn btn-wh-trans btn-xs newsletter-btn">Sign up!</button>
+                    </form>
                     <div class="divider-dynamic"></div>
                 </div>
                 <div class="col-sm-3">
