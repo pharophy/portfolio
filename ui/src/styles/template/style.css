@@ -3925,7 +3925,7 @@ footer .cv-link a i:before {
   font-size: 11px !important;
   padding-left: 6px;
 }
-footer input {
+footer .newsletter-email {
   margin: 2px 0 8px 0;
   padding: 4px 8px;
   border-radius: 0;
@@ -3935,7 +3935,7 @@ footer input {
 footer label {
   display: inline;
 }
-footer a.btn {
+footer a.btn, footer button.btn {
   padding: 7px 9px 5px 9px;
   margin-top: -1px;
 }
@@ -3991,11 +3991,16 @@ footer.dark .cv-link a:focus {
 footer.dark .cv-link a:hover {
   background: #e74c3c;
 }
-footer.dark a.btn {
+footer.dark .newsletter-btn {
+  width:25%;
+}
+footer.dark a.btn, footer.dark button.btn {
   background: #3498db;
 }
 footer.dark a.btn:hover,
-footer.dark a.btn:focus {
+footer.dark button.btn:hover,
+footer.dark a.btn:focus,
+footer.dark button.btn:focus {
   background: #e74c3c;
 }
 footer.dark input {
