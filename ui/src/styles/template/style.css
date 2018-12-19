@@ -6,9 +6,6 @@
 /*------------------------------------------------------------------
 [Color Scheme / Colors, textures]
 */
-.e-bg-light-texture {
-  /*background: url("../images/backgrounds/dark_fish_skin.png");*/
-}
 
 /* Color Classes */
 .color01 {
@@ -4464,6 +4461,15 @@ footer.light .copyrights {
     .tags-list li {
       font-size:10px;
     }
+
+.photo-primary {
+  padding:0;
+  height:360px;
+}
+
+  .photo-primary img { 
+    width: 100%;
+  }
 
 /* custom responsive section */
 @media (max-width: 992px) {
