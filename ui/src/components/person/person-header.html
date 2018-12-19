@@ -47,7 +47,7 @@
                     <!-- Main Navigation -->
 
                     <ul id="nav" class="row nopadding cd-side-navigation">
-                        <li repeat.for="link of menuLinks" class="col-xs-4 col-sm-2 nopadding menuitem ${link.cssClass}" data-animation-duration="1000" data-animation-delay="100">
+                        <li repeat.for="link of menuLinks" class="col-xs-4 col-sm-2 nopadding menuitem animated-once ${link.cssClass}" data-animation-duration="1000" data-animation-delay="100" data-animation-name="flipInY">
                             <a href.bind="link.url" class="hvr-sweep-to-bottom">
                                 <i class="${link.iconType}"></i>
                                 <span>${link.name}</span>
