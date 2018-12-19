@@ -4,8 +4,6 @@ export class App {
   configureRouter(config, router) {
     config.addPipelineStep('postcomplete', PostCompleteStep);
     config.map([
-      //{ route: '',  moduleId: 'home',   title: 'Home'},
-
       //NOTE: must navigate to localhost:9000/#/person/1 to see home page
       { route: '/', name: 'home',  moduleId: PLATFORM.moduleName('person/summary'),   title: 'About Me', layoutView: PLATFORM.moduleName('components/_shared/_layout.html') },
       { route: ['/person/:id', '/person/:id/summary'],  moduleId: PLATFORM.moduleName('person/summary'),   title: 'About Me', layoutView: PLATFORM.moduleName('components/_shared/_layout.html')},
