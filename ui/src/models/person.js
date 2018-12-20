@@ -21,9 +21,9 @@ export default class Person {
       'shawn-souto.jpg',
       'Full Stack Engineer, Architect, & Marketer',
       'Highly motivated, curious, and passionate about success.',
-      '2501 Balmoral Ct \nHillsborough, NJ 08844',
-      '908-616-0569',
-      'shawn.souto@gmail.com',
+      'Please contact for postal address',
+      '844-WEB-DES9',
+      'shawn.souto[at]gmail.com',
       'https://calendly.com/blabberjax',
       `
       My mission is to help others leverage technology to achieve their dreams. 
