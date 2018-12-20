@@ -84,34 +84,6 @@ export default class PortfolioEntry {
         0
       ),
       new PortfolioEntry(
-        'BlabberJax Engage',
-        'Custom built intelligent CTA platform to generate leads and automate actions across your BlabberJax, Zoho CRM, Mailchimp, and more.',
-        null,
-        'https://www.blabberjax.com/content-marketing-system/',
-        [
-          '/assets/portfolio/blabberjax/engage/engage-process-to-lead.jpg',
-          '/assets/portfolio/blabberjax/engage/engage-gated-content.jpg',
-          '/assets/portfolio/blabberjax/engage/engage-intelligent-actions.jpg',
-          '/assets/portfolio/blabberjax/engage/engage-actions.jpg',
-          '/assets/portfolio/blabberjax/engage/dynamic-calls-to-action-can-be-executed-on-multiple-conditions.jpg'
-        ],
-        [
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
-          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
-          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
-          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
-          new Skill('ASP.NET WebForms', '#/skill/aspnet-webforms', 'skill', 'Server-side Frameworks', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 29),
-          new Skill('REST', '#/skill/odata', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 33),
-          new Skill('Web Services', '#/skill/web-services', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 0),
-          new Skill('LINQ', '#/skill/linq', 'skill', 'ORM', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 0),
-          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35)
-        ],
-        [
-          new PortfolioEntryType('BlabberJax Marketing Platform', 'blabberjax', null, null, 1),
-        ],
-        0
-      ),
-      new PortfolioEntry(
         'BlabberJax Contacts',
         'Know your contact\'s interests before you speak to them. Custom built lead management and visitor tracking platform, integrated with Google Analytics user tracking.',
         null,
@@ -136,6 +108,35 @@ export default class PortfolioEntry {
         ],
         0
       ),
+      new PortfolioEntry(
+        'BlabberJax Engage',
+        'Custom built intelligent CTA platform to generate leads and automate actions across your BlabberJax, Zoho CRM, Mailchimp, and more.',
+        null,
+        'https://www.blabberjax.com/content-marketing-system/',
+        [
+          '/assets/portfolio/blabberjax/engage/dynamic-calls-to-action-can-be-executed-on-multiple-conditions.jpg',
+          '/assets/portfolio/blabberjax/engage/engage-gated-content.jpg',
+          '/assets/portfolio/blabberjax/engage/engage-process-to-lead.jpg',
+          '/assets/portfolio/blabberjax/engage/engage-intelligent-actions.jpg',
+          '/assets/portfolio/blabberjax/engage/engage-actions.jpg',      
+        ],
+        [
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
+          new Skill('ASP.NET WebForms', '#/skill/aspnet-webforms', 'skill', 'Server-side Frameworks', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 29),
+          new Skill('REST', '#/skill/odata', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 33),
+          new Skill('Web Services', '#/skill/web-services', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 0),
+          new Skill('LINQ', '#/skill/linq', 'skill', 'ORM', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 0),
+          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35)
+        ],
+        [
+          new PortfolioEntryType('BlabberJax Marketing Platform', 'blabberjax', null, null, 1),
+        ],
+        0
+      ),
+      
       new PortfolioEntry(
         'BlabberJax eCommerce',
         'Custom built eCommerce and purchase order platform built on top of BlabberJax Dynamic Data.',
