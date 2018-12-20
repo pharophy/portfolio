@@ -240,7 +240,7 @@ export default class PortfolioEntry {
       ),
       new PortfolioEntry(
         'Custom Analytics Platform',
-        'Custom built platform similar to Qlik or Tableau with powerful story telling capabilities.',
+        'Award winning custom built analytics platform similar to Qlik or Tableau with powerful story telling capabilities.  Won 2017 HANA Innovation Honorable Mention Special Award.',
         null,
         null,
         [
