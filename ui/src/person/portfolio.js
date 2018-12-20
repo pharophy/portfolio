@@ -1,5 +1,6 @@
 import personContext from 'models/person';
 import portfolioContext from 'models/portfolio-entry';
+import portfolioEntryTypeContext from 'models/portfolio-entry-type';
 let Isotope = require('isotope-layout');
 let imagesLoaded = require('imagesloaded');
 
@@ -7,13 +8,16 @@ export default class Portfolio {
   constructor() {
     this.personContext = personContext;
     this.portfolioContext = portfolioContext;
+    this.portfolioEntryTypeContext = portfolioEntryTypeContext;
     this.person = {};
     this.portfolioEntries = [];
+    this.portfolioEntryTypes = [];
   }
 
   async created() {
     this.person = this.personContext.getPerson(0);
     this.portfolioEntries = await this.portfolioContext.getPortfolioEntries(this.person.id);
+    this.portfolioEntryTypes = await this.portfolioEntryTypeContext.getPortfolioEntryTypes(this.person.id);
   }
 
   async attached() {

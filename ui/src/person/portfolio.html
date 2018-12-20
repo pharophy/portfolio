@@ -24,10 +24,9 @@
                     <div id="isotope-filters" class="port-filter port-filter-light text-center" data-animation-origin="top" data-animation-duration="500" data-animation-delay="200" data-animation-distance="25px" data-sr-id="14">
                         <ul>
                             <li><a href="#/person/${person.id}/portfolio?filter=all" class="iso-filter active" data-filter="*">All</a></li>
-                            <li><a href="#/person/${person.id}/portfolio?filter=blabberjax" class="iso-filter" data-filter="blabberjax">BlabberJax Platform</a></li>
-                            <li><a href="#/person/${person.id}/portfolio?filter=app-development" class="iso-filter" data-filter="app-development">App Development</a></li>
-                            <li><a href="#/person/${person.id}/portfolio?filter=clients" class="iso-filter" data-filter="clients">BlabberJax Clients</a></li>
-                            <li><a href="#/person/${person.id}/portfolio?filter=other-works" class="iso-filter" data-filter="other-works">Other Works</a></li>
+                            <li repeat.for="type of portfolioEntryTypes">
+                                <a href="#/person/${person.id}/portfolio?filter=${type.key}" class="iso-filter" data-filter="${type.key}">${type.name}</a>
+                            </li>
                         </ul>
                     </div>
             
