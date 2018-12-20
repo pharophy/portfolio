@@ -19,8 +19,8 @@ export default class Person {
       'Shawn',
       'Souto',
       'shawn-souto.jpg',
-      'Full Stack Engineer, Enterprise Architect, & Marketer',
-      'Highly motivated, curious, and passionate about success',
+      'Full Stack Engineer, Architect, & Marketer',
+      'Highly motivated, curious, and passionate about success.',
       '2501 Balmoral Ct \nHillsborough, NJ 08844',
       '908-616-0569',
       'shawn.souto@gmail.com',
@@ -28,7 +28,7 @@ export default class Person {
       `
       My mission is to help others leverage technology to achieve their dreams. 
       I've helped companies of all sizes, from solopreneurs to fortune 100 companies, and worked with all levels of the organization.
-      My experience ranges from developing strategies for new technologies, to leading mission critical projects, to architecting and developing multiple software platforms from the ground up (see my <a style="color:inherit; text-decoration: underline;" href="https://www.designbyssi.com/#/person/1/portfolio">portfolio</a>).
+      My experience ranges from developing strategies for new technologies, to leading mission critical projects, to architecting and developing multiple software platforms from the ground up (see my <a style="color:inherit; text-decoration: underline;" href="https://www.designbyssi.com/#/person/0/portfolio">portfolio</a>).
       Most of my domain knowledge falls under sales, marketing and analytics.`,
       `
       Hands on Lead Enterprise Architect with 10+ years of consistent growth as a software engineer in a range of 
