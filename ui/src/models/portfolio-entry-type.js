@@ -12,9 +12,8 @@ export default class PortfolioEntryType {
     return [
       new PortfolioEntryType('BlabberJax Marketing Platform', 'blabberjax', null, null, 1),
       new PortfolioEntryType('App Development', 'app-development', null, null, 2),
-      new PortfolioEntryType('Client Samples', 'client', null, null, 3),
-      new PortfolioEntryType('Web Design', 'web-design', null, null, 4),
-      new PortfolioEntryType('Internet Marketing', 'internet-marketing', null, null, 5)
+      new PortfolioEntryType('Client Samples', 'clients', null, null, 3),
+      new PortfolioEntryType('Other Works', 'other-works', null, null, 4)
     ];
   }
 }
