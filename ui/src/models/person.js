@@ -26,19 +26,17 @@ export default class Person {
       'shawn.souto@gmail.com',
       'https://calendly.com/blabberjax',
       `
-    My mission is to help others leverage technology to achieve their dreams. I've helped companies of all sizes, from solopreneurs to fortune 100 companies, and worked with all levels of the organization.
-
-    <br/>My experience ranges from developing strategies for new technologies, to leading mission critical projects, to architecting and developing multiple software platforms from the ground up.
-    
-    <br/>Most of my software engineering experience falls under the sales, marketing and analytics spaces.`,
-
-    `
-    Hands on Lead Enterprise Architect with 10+ years of consistent growth as a software engineer in a range of 
-    technologies including HTML5, JavaScript (ES6/Node/Ember), C#.NET, REST APIs, SAP HANA, SQL, Docker, GCP and 
-    emerging technologies. In addition, prior experience in web design as well as a range of non-IT functions such as 
-    entrepreneurship, sales, and construction grants the ability to see challenges from every perspective resulting in 
-    dramatically improved business processes and elegant systems.
-    `,
+      My mission is to help others leverage technology to achieve their dreams. 
+      I've helped companies of all sizes, from solopreneurs to fortune 100 companies, and worked with all levels of the organization.
+      My experience ranges from developing strategies for new technologies, to leading mission critical projects, to architecting and developing multiple software platforms from the ground up (see my <a style="color:inherit; text-decoration: underline;" href="https://www.designbyssi.com/#/person/1/portfolio">portfolio</a>).
+      Most of my domain knowledge falls under sales, marketing and analytics.`,
+      `
+      Hands on Lead Enterprise Architect with 10+ years of consistent growth as a software engineer in a range of 
+      technologies including HTML5, JavaScript (ES6/Node/Ember/SPAs), C#.NET, REST APIs, SAP HANA, SQL, Docker, GCP and 
+      emerging technologies. In addition, prior experience in web design as well as a range of non-IT functions such as 
+      entrepreneurship, sales, and construction grants the ability to see challenges from every perspective resulting in 
+      dramatically improved business processes and elegant systems.
+      `,
       0
     );
   }

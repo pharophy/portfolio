@@ -29,14 +29,14 @@ export default class Position {
         `
         <ul>
         <li>	Lead & collaborate on major cross-functional initiatives including cloud, integration, SAP, SAP HANA, infrastructure as code, and other transformational technologies. </li>
-        <li>	Lead engineer for custom built analytics platform based on Ember, JavaScript (ES6), HTML5, Node, Docker, and HANA.  Responsibilities include hands-on development, application architecture & design, leading international team of 10, requirements gathering, SCRUM management, and product management.  
+        <li>	Lead engineer for custom built analytics platform based on Ember, JavaScript (ES6/7), HTML5, Node, Docker, and HANA.  Responsibilities include hands-on development, application architecture & design, leading international team of 10, requirements gathering, SCRUM management, and product management.  
         Top priority project: <span class="italic">highlighted at Google Next 2017 (<a href="https://youtu.be/j_K1YoMHpbk?t=39m35s" target="_blank">See on YouTube</a>), 
         2017 SAP Innovation Award Winner (<a href="https://drive.google.com/open?id=0B3snJ2ivYc8JOEJLNGhTV3ctSTQ" target="_blank">Presentation</a>) and demoed in SAP Sapphire 2015 keynote with Hasso Plattner.</span></li>
-        <li>	Established Architecture Review Board, formalizing design review process, roles, and responsibilities.  
-        <br/><span class="italic">Completed over 60 design reviews in 2018.</span></li>
+        <li>	Established Architecture Review Board to formalize design review process, roles, and responsibilities.  
+        <br/><span class="italic">Led over 60 design reviews in 2018 (prior to establishing board).</span></li>
         <li>	Work across functions to ensure technical and strategic alignment to business goals, including leading task forces, developing and aligning roadmaps, prioritizing capabilities, setting standards & best practices, leading training programs and assisting with intern program. 
         <br/><span class="italic">Trained over 100 individuals in multiple training sessions on QlikView, SAP HANA, and JavaScript.</span></li>
-        <li>	Managed 3 direct reports. </li>
+        <li>	Managed 2 direct reports, interns, consultants, and development team in US &amp; India. </li>
         </ul>
         `,
         [
