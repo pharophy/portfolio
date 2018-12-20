@@ -52,14 +52,19 @@ export default class Skill extends NavigationLink {
       new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
       new Skill('ASP.NET MVC', '#/skill/aspnet-mvc', 'skill', 'Server-side Frameworks', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 28),
       new Skill('ASP.NET WebForms', '#/skill/aspnet-webforms', 'skill', 'Server-side Frameworks', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 29),
-      new Skill('Web API', '#/skill/web-api', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 30),
-      new Skill('IIS', '#/skill/iis', 'skill', 'Web Stack', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 31),
 
+      new Skill('Web API', '#/skill/web-api', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 30),
+      new Skill('Web Services', '#/skill/web-services', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 0),
       new Skill('OData', '#/skill/odata', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 5, 32),
       new Skill('REST', '#/skill/odata', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 33),
 
+      new Skill('LINQ', '#/skill/linq', 'skill', 'ORM', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 0),
+      new Skill('Entity Framework', '#/skill/enitity-framework', 'skill', 'ORM', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 0),
+
       new Skill('MSSQL', '#/skill/mssql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 34),
       new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35),
+
+      new Skill('IIS', '#/skill/iis', 'skill', 'Web Stack', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 31),
 
       new Skill('Docker', '#/skill/docker', 'skill', 'DevOps', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 2, 36),
       new Skill('Kubernetes', '#/skill/kubernetes', 'skill', 'DevOps', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 1, 37),
