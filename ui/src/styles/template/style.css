@@ -2667,9 +2667,10 @@ section h3 {
 #circle-skills .progressbar {
   margin: 16px;
 }
-#circle-skills .progressbar h4 {
+#circle-skills h4 {
   margin-top: 24px;
   letter-spacing: 1px;
+  font-size: 18px;
 }
 #circle-skills .progressbar p {
   line-height: 1.5em;
@@ -2732,7 +2733,7 @@ section h3 {
 #circle-skills.dark .progressbar p {
   color: #ffffff;
 }
-#circle-skills.dark .progressbar h4 {
+#circle-skills.dark h4 {
   color: #ffffff;
 }
 #circle-skills.dark .progressbar.semicircle .progressbar-text {
@@ -2791,10 +2792,9 @@ section h3 {
   -o-transition: all 0.35s ease-in-out;
   -ms-transition: all 0.35s ease-in-out;
 }
-#pro-experience li.company {
+
+#pro-experience li.company, #pro-experience li.company a {
   display: block;
-}
-#pro-experience li.company a {
   font-family: "Exo 2", sans-serif;
   position: relative;
   font-size: 16px;
@@ -2852,7 +2852,7 @@ section h3 {
 #pro-experience.dark li.date {
   color: #ffffff;
 }
-#pro-experience.dark li.company a {
+#pro-experience.dark li.company, #pro-experience.dark li.company a {
   color: #ffffff;
 }
 #pro-experience.dark li.company a:before {
@@ -4482,6 +4482,10 @@ footer.light .copyrights {
 
   .photo-primary img { 
     width: 100%;
+  }
+
+  #circle-skills .preview-image {
+    height:120px;
   }
 
 /* custom responsive section */
