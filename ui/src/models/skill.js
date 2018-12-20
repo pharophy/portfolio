@@ -18,9 +18,9 @@ export default class Skill extends NavigationLink {
   static getSkills(personId) {
     return [
 
-      new Skill('Team Leader', '#/skill/team-leader', 'skill', 'Roles', null, 'flaticon-paper40', 400, 'Technical lead on projects with over 10 resources', null, null, 4, 1),
-      new Skill('Enterprise Architect', '#/skill/enterprise-architect', 'skill', 'Roles', null, 'flaticon-insignia', 200, 'Connect business vision with technology to achieve goals', null, null, 3, 2),
-      new Skill('Software Architect', '#/skill/software-architect', 'skill', 'Roles', null, 'flaticon-insignia', 200, 'Architect and design apps and platforms from the ground up', null, null, 4, 3),
+      new Skill('Team Leader', '#/skill/team-leader', 'skill', 'Roles', null, 'flaticon-paper40', 400, 'Technical lead on projects with over 10 resources.', null, null, 4, 1),
+      new Skill('Enterprise Architect', '#/skill/enterprise-architect', 'skill', 'Roles', null, 'flaticon-insignia', 200, 'Connect business vision with technology to achieve goals.', null, null, 3, 2),
+      new Skill('Software Architect', '#/skill/software-architect', 'skill', 'Roles', null, 'flaticon-insignia', 200, 'Architect and design apps and platforms from the ground up.', null, null, 4, 3),
       new Skill('Solution Architect', '#/skill/software-architect', 'skill', 'Roles', null, 'flaticon-insignia', 200, 'This is an architect description', null, null, 4, 4),
       new Skill('Full Stack Engineer', '#/skill/full-stack-engineer', 'skill', 'Roles', null, 'flaticon-tool-1', 300, 'This is an engineer description', null, null, 4, 5),
       new Skill('Web Developer', '#/skill/web-developer', 'skill', 'Roles', null, 'flaticon-insignia', 200, 'This is an architect description', null, null, 4, 6),
