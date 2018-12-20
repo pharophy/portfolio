@@ -28,6 +28,15 @@ export class App {
       app.runOnceAnimations(app);
       app.runAnimations(app);
     });
+    let script = document.createElement('script');
+    script.onload = () => {
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'UA-5893708-8');
+    };
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=UA-5893708-8';
+    document.getElementsByTagName('body')[0].appendChild(script);
   }
 
   isScrolledIntoView(el) {
