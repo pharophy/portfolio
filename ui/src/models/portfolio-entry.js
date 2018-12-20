@@ -28,12 +28,24 @@ export default class PortfolioEntry {
           '/assets/portfolio/blabberjax/cms/blabberjax-cms-edit-page.png'
         ],
         [
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('Software Architect', '#/skill/software-architect', 'skill', 'Roles', null, 'flaticon-insignia', 200, 'This is an architect description', null, null, 4, 3),
           new Skill('Full Stack Engineer', '#/skill/full-stack-engineer', 'skill', 'Roles', null, 'flaticon-tool-1', 300, 'This is an engineer description', null, null, 4, 5),
+
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
+          new Skill('ASP.NET WebForms', '#/skill/aspnet-webforms', 'skill', 'Server-side Frameworks', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 29),
+          new Skill('ASP.NET MVC', '#/skill/aspnet-mvc', 'skill', 'Server-side Frameworks', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 28),
+          new Skill('Web API', '#/skill/web-api', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 30),
           new Skill('jQuery', '#/skill/jquery', 'skill', 'Front-end', null, 'flaticon-insignia', 200, 'This is an architect description', null, null, 4, 23),
+          new Skill('LINQ', '#/skill/linq', 'skill', 'ORM', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 34),
+          new Skill('Entity Framework', '#/skill/enitity-framework', 'skill', 'ORM', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 34),
           new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35),
+
+          new Skill('MSSQL', '#/skill/mssql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 34),
+          new Skill('IIS', '#/skill/iis', 'skill', 'Web Stack', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 31),
+
           new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
           new Skill('Email Marketing', '#/skill/email-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 52),
           new Skill('Social Media Marketing', '#/skill/social-media-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 53),
@@ -41,9 +53,7 @@ export default class PortfolioEntry {
         ],
         [
           new PortfolioEntryType('BlabberJax Marketing Platform', 'blabberjax', null, null, 1),
-          new PortfolioEntryType('Client Samples', 'client', null, null, 3),
-          new PortfolioEntryType('Web Design', 'web-design', null, null, 4),
-          new PortfolioEntryType('Internet Marketing', 'internet-marketing', null, null, 5)
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3)
         ],
         0
       ),
@@ -60,16 +70,16 @@ export default class PortfolioEntry {
         [
           new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
-          new Skill('jQuery', '#/skill/jquery', 'skill', 'Front-end', null, 'flaticon-insignia', 200, 'This is an architect description', null, null, 4, 23),
-          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
+          new Skill('ASP.NET WebForms', '#/skill/aspnet-webforms', 'skill', 'Server-side Frameworks', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 29),
           new Skill('REST', '#/skill/odata', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 33),
-          new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
-          new Skill('Email Marketing', '#/skill/email-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 52),
-          new Skill('Social Media Marketing', '#/skill/social-media-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 53),
-          new Skill('Content Marketing', '#/skill/content-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 5, 54),
+          new Skill('Web Services', '#/skill/web-services', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 0),
+          new Skill('LINQ', '#/skill/linq', 'skill', 'ORM', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 0),
+          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35)
         ],
         [
-          new PortfolioEntryType('BlabberJax Marketing Platform', 'blabberjax', null, null, 1),
+          new PortfolioEntryType('BlabberJax Marketing Platform', 'blabberjax', null, null, 1)
         ],
         0
       ),
@@ -88,13 +98,13 @@ export default class PortfolioEntry {
         [
           new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
-          new Skill('jQuery', '#/skill/jquery', 'skill', 'Front-end', null, 'flaticon-insignia', 200, 'This is an architect description', null, null, 4, 23),
-          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
+          new Skill('ASP.NET WebForms', '#/skill/aspnet-webforms', 'skill', 'Server-side Frameworks', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 29),
           new Skill('REST', '#/skill/odata', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 33),
-          new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
-          new Skill('Email Marketing', '#/skill/email-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 52),
-          new Skill('Social Media Marketing', '#/skill/social-media-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 53),
-          new Skill('Content Marketing', '#/skill/content-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 5, 54),
+          new Skill('Web Services', '#/skill/web-services', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 0),
+          new Skill('LINQ', '#/skill/linq', 'skill', 'ORM', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 0),
+          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35)
         ],
         [
           new PortfolioEntryType('BlabberJax Marketing Platform', 'blabberjax', null, null, 1),
@@ -112,13 +122,14 @@ export default class PortfolioEntry {
         [
           new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
-          new Skill('jQuery', '#/skill/jquery', 'skill', 'Front-end', null, 'flaticon-insignia', 200, 'This is an architect description', null, null, 4, 23),
-          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35),
-          new Skill('REST', '#/skill/odata', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 33),
-          new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
-          new Skill('Email Marketing', '#/skill/email-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 52),
-          new Skill('Social Media Marketing', '#/skill/social-media-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 53),
-          new Skill('Content Marketing', '#/skill/content-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 5, 54),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
+          new Skill('ASP.NET WebForms', '#/skill/aspnet-webforms', 'skill', 'Server-side Frameworks', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 29),
+          new Skill('ASP.NET MVC', '#/skill/aspnet-mvc', 'skill', 'Server-side Frameworks', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 28),
+          new Skill('Web API', '#/skill/web-api', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 30),
+          new Skill('OData', '#/skill/odata', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 5, 32),
+          new Skill('Entity Framework', '#/skill/enitity-framework', 'skill', 'ORM', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 0),
+          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35)
         ],
         [
           new PortfolioEntryType('BlabberJax Marketing Platform', 'blabberjax', null, null, 1),
@@ -139,11 +150,13 @@ export default class PortfolioEntry {
         [
           new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
-          new Skill('jQuery', '#/skill/jquery', 'skill', 'Front-end', null, 'flaticon-insignia', 200, 'This is an architect description', null, null, 4, 23),
-          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35),
-          new Skill('REST', '#/skill/odata', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 33),
-          new Skill('Web API', '#/skill/web-api', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 30),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
           new Skill('ASP.NET WebForms', '#/skill/aspnet-webforms', 'skill', 'Server-side Frameworks', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 29),
+          new Skill('REST', '#/skill/odata', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 33),
+          new Skill('Web Services', '#/skill/web-services', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 0),
+          new Skill('LINQ', '#/skill/linq', 'skill', 'ORM', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 0),
+          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35)
         ],
         [
           new PortfolioEntryType('BlabberJax Marketing Platform', 'blabberjax', null, null, 1),
@@ -162,11 +175,12 @@ export default class PortfolioEntry {
         [
           new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
-          new Skill('jQuery', '#/skill/jquery', 'skill', 'Front-end', null, 'flaticon-insignia', 200, 'This is an architect description', null, null, 4, 23),
-          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35),
-          new Skill('REST', '#/skill/odata', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 33),
-          new Skill('Web API', '#/skill/web-api', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 30),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
           new Skill('ASP.NET WebForms', '#/skill/aspnet-webforms', 'skill', 'Server-side Frameworks', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 29),
+          new Skill('REST', '#/skill/odata', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 33),
+          new Skill('Web Services', '#/skill/web-services', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 0),
+          new Skill('jQuery', '#/skill/jquery', 'skill', 'Front-end', null, 'flaticon-insignia', 200, 'This is an architect description', null, null, 4, 23),
         ],
         [
           new PortfolioEntryType('BlabberJax Marketing Platform', 'blabberjax', null, null, 1),
@@ -184,11 +198,13 @@ export default class PortfolioEntry {
         [
           new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
-          new Skill('jQuery', '#/skill/jquery', 'skill', 'Front-end', null, 'flaticon-insignia', 200, 'This is an architect description', null, null, 4, 23),
-          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35),
-          new Skill('REST', '#/skill/odata', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 33),
-          new Skill('Web API', '#/skill/web-api', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 30),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
           new Skill('ASP.NET WebForms', '#/skill/aspnet-webforms', 'skill', 'Server-side Frameworks', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 29),
+          new Skill('REST', '#/skill/odata', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 33),
+          new Skill('Web Services', '#/skill/web-services', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 0),
+          new Skill('LINQ', '#/skill/linq', 'skill', 'ORM', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 0),
+          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35)
         ],
         [
           new PortfolioEntryType('BlabberJax Marketing Platform', 'blabberjax', null, null, 1),
@@ -209,11 +225,13 @@ export default class PortfolioEntry {
         [
           new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
-          new Skill('jQuery', '#/skill/jquery', 'skill', 'Front-end', null, 'flaticon-insignia', 200, 'This is an architect description', null, null, 4, 23),
-          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35),
-          new Skill('REST', '#/skill/odata', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 33),
-          new Skill('Web API', '#/skill/web-api', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 30),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
           new Skill('ASP.NET WebForms', '#/skill/aspnet-webforms', 'skill', 'Server-side Frameworks', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 29),
+          new Skill('REST', '#/skill/odata', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 33),
+          new Skill('Web Services', '#/skill/web-services', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 0),
+          new Skill('LINQ', '#/skill/linq', 'skill', 'ORM', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 0),
+          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35)
         ],
         [
           new PortfolioEntryType('BlabberJax Marketing Platform', 'blabberjax', null, null, 1),
@@ -277,11 +295,11 @@ export default class PortfolioEntry {
         [
           new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
-          new Skill('jQuery', '#/skill/jquery', 'skill', 'Front-end', null, 'flaticon-insignia', 200, 'This is an architect description', null, null, 4, 23),
-          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35),
-          new Skill('REST', '#/skill/odata', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 33),
-          new Skill('Web API', '#/skill/web-api', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 30),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
           new Skill('ASP.NET WebForms', '#/skill/aspnet-webforms', 'skill', 'Server-side Frameworks', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 29),
+          new Skill('Entity Framework', '#/skill/enitity-framework', 'skill', 'ORM', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 0),
+          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35)
         ],
         [
           new PortfolioEntryType('App Development', 'app-development', null, null, 2),
@@ -302,12 +320,11 @@ export default class PortfolioEntry {
         [
           new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
-          new Skill('jQuery', '#/skill/jquery', 'skill', 'Front-end', null, 'flaticon-insignia', 200, 'This is an architect description', null, null, 4, 23),
-          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35),
-          new Skill('REST', '#/skill/odata', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 33),
-          new Skill('Web API', '#/skill/web-api', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 30),
-          new Skill('ASP.NET WebForms', '#/skill/aspnet-webforms', 'skill', 'Server-side Frameworks', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 29),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
+          new Skill('ASP.NET WebForms', '#/skill/aspnet-webforms', 'skill', 'Server-side Frameworks', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 29),
+          new Skill('LINQ', '#/skill/linq', 'skill', 'ORM', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 0),
+          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35)
         ],
         [
           new PortfolioEntryType('App Development', 'app-development', null, null, 2),
@@ -325,11 +342,11 @@ export default class PortfolioEntry {
         [
           new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
-          new Skill('jQuery', '#/skill/jquery', 'skill', 'Front-end', null, 'flaticon-insignia', 200, 'This is an architect description', null, null, 4, 23),
-          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35),
-          new Skill('REST', '#/skill/odata', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 33),
-          new Skill('Web API', '#/skill/web-api', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 30),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
           new Skill('ASP.NET WebForms', '#/skill/aspnet-webforms', 'skill', 'Server-side Frameworks', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 29),
+          new Skill('LINQ', '#/skill/linq', 'skill', 'ORM', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 0),
+          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35)
         ],
         [
           new PortfolioEntryType('App Development', 'app-development', null, null, 2),
@@ -347,12 +364,11 @@ export default class PortfolioEntry {
         [
           new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
-          new Skill('jQuery', '#/skill/jquery', 'skill', 'Front-end', null, 'flaticon-insignia', 200, 'This is an architect description', null, null, 4, 23),
-          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35),
-          new Skill('REST', '#/skill/odata', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 33),
-          new Skill('Web API', '#/skill/web-api', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 30),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
           new Skill('ASP.NET WebForms', '#/skill/aspnet-webforms', 'skill', 'Server-side Frameworks', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 29),
-          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
+          new Skill('LINQ', '#/skill/linq', 'skill', 'ORM', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 0),
+          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35)
         ],
         [
           new PortfolioEntryType('App Development', 'app-development', null, null, 2),
@@ -374,10 +390,11 @@ export default class PortfolioEntry {
         [
           new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
-          new Skill('jQuery', '#/skill/jquery', 'skill', 'Front-end', null, 'flaticon-insignia', 200, 'This is an architect description', null, null, 4, 23),
-          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35),
-          new Skill('ASP.NET WebForms', '#/skill/aspnet-webforms', 'skill', 'Server-side Frameworks', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 29),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
+          new Skill('ASP.NET WebForms', '#/skill/aspnet-webforms', 'skill', 'Server-side Frameworks', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 29),
+          new Skill('LINQ', '#/skill/linq', 'skill', 'ORM', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 0),
+          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35)
         ],
         [
           new PortfolioEntryType('App Development', 'app-development', null, null, 2),
@@ -417,10 +434,11 @@ export default class PortfolioEntry {
         [
           new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
-          new Skill('jQuery', '#/skill/jquery', 'skill', 'Front-end', null, 'flaticon-insignia', 200, 'This is an architect description', null, null, 4, 23),
-          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35),
-          new Skill('Web API', '#/skill/web-api', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 30),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
           new Skill('ASP.NET WebForms', '#/skill/aspnet-webforms', 'skill', 'Server-side Frameworks', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 29),
+          new Skill('LINQ', '#/skill/linq', 'skill', 'ORM', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 0),
+          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35)
         ],
         [
           new PortfolioEntryType('App Development', 'app-development', null, null, 2),
@@ -429,7 +447,7 @@ export default class PortfolioEntry {
       ),
       new PortfolioEntry(
         'Forward Focus',
-        'BlabberJax implementation and ongoing marketing automation including micro-moment based marketing.',
+        'BlabberJax implementation, multiple custom website designs, and ongoing marketing automation including micro-moment based marketing.',
         null,
         'https://www.forwardfocusinc.com/',
         [
@@ -440,18 +458,20 @@ export default class PortfolioEntry {
           new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
           new Skill('Email Marketing', '#/skill/email-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 52),
           new Skill('Social Media Marketing', '#/skill/social-media-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 53),
-          new Skill('Content Marketing', '#/skill/content-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 5, 54)
+          new Skill('Content Marketing', '#/skill/content-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 5, 54),
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
         ],
         [
-          new PortfolioEntryType('Client Samples', 'client', null, null, 3),
-          new PortfolioEntryType('Web Design', 'web-design', null, null, 4),
-          new PortfolioEntryType('Internet Marketing', 'internet-marketing', null, null, 5)
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3),
         ],
         0
       ),
       new PortfolioEntry(
         'Porters Cleaning',
-        'BlabberJax implementation and ongoing marketing automation.',
+        'BlabberJax implementation, custom website design, and ongoing marketing automation.',
         null,
         'https://www.porterscleaning.com/',
         [
@@ -462,12 +482,14 @@ export default class PortfolioEntry {
           new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
           new Skill('Email Marketing', '#/skill/email-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 52),
           new Skill('Social Media Marketing', '#/skill/social-media-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 53),
-          new Skill('Content Marketing', '#/skill/content-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 5, 54)
+          new Skill('Content Marketing', '#/skill/content-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 5, 54),
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
         ],
         [
-          new PortfolioEntryType('Client Samples', 'client', null, null, 3),
-          new PortfolioEntryType('Web Design', 'web-design', null, null, 4),
-          new PortfolioEntryType('Internet Marketing', 'internet-marketing', null, null, 5)
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3)
         ],
         0
       ),
@@ -483,17 +505,661 @@ export default class PortfolioEntry {
         ],
         [
           new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
+          new Skill('Email Marketing', '#/skill/email-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 52),
+          new Skill('Social Media Marketing', '#/skill/social-media-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 53),
+          new Skill('Content Marketing', '#/skill/content-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 5, 54),
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
+          new Skill('LINQ', '#/skill/linq', 'skill', 'ORM', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 0),
+          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35)
+        ],
+        [
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'Main Attractions',
+        'BlabberJax implementation with customized website design and custom photo galleries.',
+        null,
+        'https://www.mainattractions.com/',
+        [
+          '/assets/portfolio/clients/mainattractions/design-sample-main-attractions-responsive-web-design.png',
+          '/assets/portfolio/clients/mainattractions/main-attractions.png',
+          '/assets/portfolio/clients/mainattractions/mainattractions-full.jpg'
+        ],
+        [
+          new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
+          new Skill('Email Marketing', '#/skill/email-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 52),
+          new Skill('Social Media Marketing', '#/skill/social-media-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 53),
+          new Skill('Content Marketing', '#/skill/content-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 5, 54),
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
+        ],
+        [
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'Up and Away',
+        'BlabberJax implementation with custom website design, SEO, content marketing, and integration to Odysseus flight search and Orbitz Private Label vacation and hotel search.',
+        null,
+        null,
+        [
+          '/assets/portfolio/clients/upandaway/design-sample-up-and-away-responsive-web-design.png'
+        ],
+        [
+          new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
+          new Skill('Content Marketing', '#/skill/content-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 5, 54),
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
+        ],
+        [
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'Millrun Tours',
+        'BlabberJax implementation with custom website design, SEO, content marketing, and integration to Odysseus flight search and Orbitz Private Label vacation and hotel search.',
+        null,
+        null,
+        [
+          '/assets/portfolio/clients/millrun/mill-run-half.png'
+        ],
+        [
+          new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
+          new Skill('Content Marketing', '#/skill/content-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 5, 54),
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
+        ],
+        [
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'Air Savings',
+        'BlabberJax implementation with custom website design, SEO, content marketing, email marketing, and integration to Odysseus flight search and Orbitz Private Label vacation and hotel search.',
+        null,
+        null,
+        [
+          '/assets/portfolio/clients/air-savings/redesign-air-savings-full.jpg',
+          '/assets/portfolio/clients/air-savings/redesign-air-savings-half.jpg',
+          '/assets/portfolio/clients/air-savings/air-savings-half.jpg'
+        ],
+        [
+          new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
+          new Skill('Email Marketing', '#/skill/email-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 52),
+          new Skill('Social Media Marketing', '#/skill/social-media-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 53),
+          new Skill('Content Marketing', '#/skill/content-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 5, 54),
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
+        ],
+        [
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'Airline Ticket Center',
+        'BlabberJax implementation with custom website design and integration to Odysseus flight search and Orbitz Private Label vacation and hotel search.',
+        null,
+        null,
+        [
+          '/assets/portfolio/clients/airlineticket-center/airlineticket-center-full.jpg'
+        ],
+        [
+          new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
+        ],
+        [
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'Dalegroup Aviation',
+        'BlabberJax implementation and Search Engine Optimization (SEO).',
+        null,
+        null,
+        [
+          '/assets/portfolio/clients/dalegroup-aviation/dalegroup-aviation-full.jpg'
+        ],
+        [
+          new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
+        ],
+        [
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'Dalegroup Insurance',
+        'BlabberJax implementation(s), Search Engine Optimization (SEO), YouTube marketing, email marketing, intranet portals, and various custom applications for network of companies.',
+        null,
+        null,
+        [
+          '/assets/portfolio/clients/dalegroup/website-full.jpg',
+          '/assets/portfolio/clients/dalegroup/dalegroup-serps.jpg',
+          '/assets/portfolio/clients/dalegroup/dalegroup-site-services-full.jpg',
+          '/assets/portfolio/clients/dalegroup/dalegroup-intranet-half.jpg',
+          '/assets/portfolio/clients/dalegroup/construction-division-newslet.jpg',
+          '/assets/portfolio/clients/dalegroup/cost-reduction-newslet.jpg',
+          '/assets/portfolio/clients/dalegroup/dalegroup_insurance_before.jpg'
+        ],
+        [
+          new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
+          new Skill('Email Marketing', '#/skill/email-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 52),
+          new Skill('Social Media Marketing', '#/skill/social-media-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 53),
+          new Skill('Content Marketing', '#/skill/content-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 5, 54),
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
+        ],
+        [
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'Ted Speak',
+        'BlabberJax implementation with custom website design.',
+        null,
+        null,
+        [
+          '/assets/portfolio/clients/tedspeak/tedspeak-home-half.jpg'
+        ],
+        [
+          new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
+        ],
+        [
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'Sonny Chatrath',
+        'Accelerated BlabberJax implementation for personal site.',
+        null,
+        null,
+        [
+          '/assets/portfolio/clients/sonny-chatrath/sonny-chatrath.jpg'
+        ],
+        [
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
+        ],
+        [
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'IT Rubicon',
+        'BlabberJax implementation with custom website design.',
+        null,
+        null,
+        [
+          '/assets/portfolio/clients/itrubicon/itrubicon-responsive-design.jpg',
+          '/assets/portfolio/clients/itrubicon/homepage.jpg'
+        ],
+        [
+          new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
+          new Skill('Content Marketing', '#/skill/content-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 5, 54),
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
+        ],
+        [
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'Close Reach Solutions',
+        'BlabberJax implementation with custom website design.',
+        null,
+        'http://www.closereachsolutions.com/',
+        [
+          '/assets/portfolio/clients/closereachsolutions/close-reach-solutions.jpg'
+        ],
+        [
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
+        ],
+        [
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'Specialized Computer Resources',
+        'BlabberJax implementation with multiple custom website designs over years.',
+        null,
+        null,
+        [
+          '/assets/portfolio/clients/s-c-r/scr-full.jpg',
+          '/assets/portfolio/clients/s-c-r/scr-full-old.jpg'
+        ],
+        [
+          new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
+        ],
+        [
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'MDP Systems',
+        'BlabberJax implementation with custom website design.',
+        null,
+        null,
+        [
+          '/assets/portfolio/clients/mdpsystems/mdp-systems.jpg',
+          '/assets/portfolio/clients/mdpsystems/index.jpg',
+          '/assets/portfolio/clients/mdpsystems/index2.jpg',
+          '/assets/portfolio/clients/mdpsystems/index4.jpg'
+        ],
+        [
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
+        ],
+        [
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'Corporate Graphics',
+        'BlabberJax implementation with custom website design.',
+        null,
+        null,
+        [
+          '/assets/portfolio/clients/corpgraphicsolutions/corp-graphics-half.png',
+          '/assets/portfolio/clients/corpgraphicsolutions/corp-graphics-full.jpg'
+        ],
+        [
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
+        ],
+        [
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'Viva Modern Furniture',
+        'BlabberJax implementation with custom website design and ongoing IT assistance as needed.',
+        null,
+        'http://www.vivamodernfurniture.com',
+        [
+          '/assets/portfolio/clients/vivamodernfurniture/viva-full.jpg'
+        ],
+        [
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
+        ],
+        [
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'Life Furniture',
+        'BlabberJax implementation with custom website design and eCommerce.',
+        null,
+        null,
+        [
+          '/assets/portfolio/clients/lifefurniture/lifefurniture-home.png'
+        ],
+        [
+          new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
           new Skill('C#', '#/skill/c-sharp', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
           new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35),
         ],
         [
-          new PortfolioEntryType('Client Samples', 'client', null, null, 3),
-          new PortfolioEntryType('Web Design', 'web-design', null, null, 4),
-          new PortfolioEntryType('Internet Marketing', 'internet-marketing', null, null, 5)
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3)
         ],
         0
       ),
+      new PortfolioEntry(
+        'Millstone River Creamery',
+        'BlabberJax implementation with custom design, custom eCommerce, intelligent shipping rules, and interactive community.',
+        null,
+        null,
+        [
+          '/assets/portfolio/clients/millstonerivercreamery/millstone-river-creamery-prods.jpg',
+          '/assets/portfolio/clients/millstonerivercreamery/millstone-river-creamery.jpg',
+          '/assets/portfolio/clients/millstonerivercreamery/MRC-full_before.jpg',
+          '/assets/portfolio/clients/millstonerivercreamery/MRC-shop-full_before.jpg'
+        ],
+        [
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
+          new Skill('LINQ', '#/skill/linq', 'skill', 'ORM', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 0),
+          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35),
+          new Skill('Web Services', '#/skill/web-services', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 0),
+          new Skill('ASP.NET WebForms', '#/skill/aspnet-webforms', 'skill', 'Server-side Frameworks', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 29)
+        ],
+        [
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'JJ Sinisi Paving',
+        'BlabberJax implementation and custom website design.',
+        null,
+        null,
+        [
+          '/assets/portfolio/clients/sinisipaving/sinisi-full.jpg',
+          '/assets/portfolio/clients/sinisipaving/sinisi-gallery.jpg'
+        ],
+        [
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
+        ],
+        [
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'Ark Floors',
+        'BlabberJax implementation, web design conversion, and ongoing assistance.',
+        null,
+        null,
+        [
+          '/assets/portfolio/clients/ark-floors/ark-gallery-full.jpg',
+          '/assets/portfolio/clients/ark-floors/ark-home.jpg',
+          '/assets/portfolio/clients/ark-floors/ark-prod-coll-full.jpg'
+        ],
+        [
+          new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
+        ],
+        [
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'Advanced Built Structures',
+        'BlabberJax implementation and custom website design.',
+        null,
+        null,
+        [
+          '/assets/portfolio/clients/advancedbuiltstructures/abs-full.jpg'
+        ],
+        [
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
+        ],
+        [
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'Full Cycle Nutrition',
+        'BlabberJax implementation with multiple enhancements to eCommerce and membership platform components.',
+        null,
+        null,
+        [
+          '/assets/portfolio/clients/fullcyclenutrition/templatev6.jpg'
+        ],
+        [
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
+          new Skill('LINQ', '#/skill/linq', 'skill', 'ORM', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 0),
+          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35),
+          new Skill('Web Services', '#/skill/web-services', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 0),
+          new Skill('ASP.NET WebForms', '#/skill/aspnet-webforms', 'skill', 'Server-side Frameworks', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 29)
+        ],
+        [
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'Awesome Internet TV',
+        'BlabberJax implementation with custom capability for live TV streaming.',
+        null,
+        null,
+        [
+          '/assets/portfolio/clients/awesomeitv/awesome-itv.jpg'
+        ],
+        [
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
+          new Skill('LINQ', '#/skill/linq', 'skill', 'ORM', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 0),
+          new Skill('Web Services', '#/skill/web-services', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 0),
+          new Skill('ASP.NET WebForms', '#/skill/aspnet-webforms', 'skill', 'Server-side Frameworks', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 29)
+        ],
+        [
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'SSI Design',
+        'BlabberJax implementation with various custom apps for accounting, client management, and other internal needs.  Relaunch 2018 as SPA developed on Aurelia.',
+        null,
+        'https://www.designbyssi.com',
+        [
+          '/assets/portfolio/clients/designbyssi/ssi-design-new-half.jpg',
+          '/assets/portfolio/apps/portfolio-site/portfolio-home.png'
+        ],
+        [
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
+          new Skill('LINQ', '#/skill/linq', 'skill', 'ORM', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 0),
+          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35),
+          new Skill('Web Services', '#/skill/web-services', 'skill', 'API Development', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 0),
+          new Skill('ASP.NET WebForms', '#/skill/aspnet-webforms', 'skill', 'Server-side Frameworks', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 29)
+        ],
+        [
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'Applegate Associates',
+        'HTML conversion, SEO, and custom app development.',
+        null,
+        null,
+        [
+          '/assets/portfolio/designs/applegateassociates/applegate-full.jpg',
+          '/assets/portfolio/designs/applegateassociates/applegate-serps.jpg'
+        ],
+        [
+          new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
+          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
+          new Skill('LINQ', '#/skill/linq', 'skill', 'ORM', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 0),
+          new Skill('SQL', '#/skill/sql', 'skill', 'Database', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 35),
+          new Skill('ASP.NET WebForms', '#/skill/aspnet-webforms', 'skill', 'Server-side Frameworks', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 29)
+        ],
+        [
+          new PortfolioEntryType('BlabberJax Clients', 'clients', null, null, 3),
+          new PortfolioEntryType('Other Works', 'other-works', null, null, 4)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'Foster Hunt M&A',
+        'HTML conversion, static website, and SEO.',
+        null,
+        null,
+        [
+          '/assets/portfolio/designs/fosterhunt/fosterhunt-full.jpg'
+        ],
+        [
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
+          new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
+        ],
+        [
+          new PortfolioEntryType('Other Works', 'other-works', null, null, 4)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'Gold 2 Cash',
+        'HTML conversion and static website.',
+        null,
+        null,
+        [
+          '/assets/portfolio/designs/gold-2-cash/gold-2-cash-full.jpg'
+        ],
+        [
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
+        ],
+        [
+          new PortfolioEntryType('Other Works', 'other-works', null, null, 4)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'Nash Dance',
+        'Custom Web Design and HTML conversion.',
+        null,
+        null,
+        [
+          '/assets/portfolio/designs/nashdance/nash-dance-full.jpg',
+          '/assets/portfolio/designs/nashdance/nash-dance-final.jpg',
+          '/assets/portfolio/designs/nashdance/nash-dance-full-b.jpg',
+          '/assets/portfolio/designs/nashdance/nash-dance-full-c.jpg'
+        ],
+        [
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
+        ],
+        [
+          new PortfolioEntryType('Other Works', 'other-works', null, null, 4)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'Michael Faulkner',
+        'HTML conversion and static website.',
+        null,
+        null,
+        [
+          '/assets/portfolio/designs/mfaulkner/motivational-blog-half.jpg'
+        ],
+        [
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
+          //new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
+        ],
+        [
+          new PortfolioEntryType('Other Works', 'other-works', null, null, 4)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'Pizza And',
+        'HTML conversion, static website, and extensive SEO.',
+        null,
+        null,
+        [
+          '/assets/portfolio/designs/pizza-and/pizza-and-full.jpg',
+          '/assets/portfolio/designs/pizza-and/pizza-and-serps.jpg'
+        ],
+        [
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
+          new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
+        ],
+        [
+          new PortfolioEntryType('Other Works', 'other-works', null, null, 4)
+        ],
+        0
+      ),
+      new PortfolioEntry(
+        'Pizzeta Enoteca',
+        'HTML conversion, static website, and SEO.',
+        null,
+        null,
+        [
+          '/assets/portfolio/designs/pizzeta/pizzeta.jpg',
+          '/assets/portfolio/designs/pizzeta/pizzeta-serps.jpg'
+        ],
+        [
+          new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
+          new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
+          new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
+          new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
+        ],
+        [
+          new PortfolioEntryType('Other Works', 'other-works', null, null, 4)
+        ],
+        0
+      )
     ];
 
     return portfolioEntries;
