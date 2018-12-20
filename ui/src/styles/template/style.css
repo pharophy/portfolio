@@ -4488,6 +4488,10 @@ footer.light .copyrights {
     height:120px;
   }
 
+.jumbotron .lead {
+  font-size: 1.1rem;
+}
+
 /* custom responsive section */
 @media (max-width: 992px) {
   /* blogs */
