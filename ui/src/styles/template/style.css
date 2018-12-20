@@ -2256,11 +2256,18 @@ figure.effect-goliath:hover p {
 }
 
 /* Isotope Portfolio */
-#portfolio .item-wrap,
-#blog .item-wrap,
-#portfolio-item-page .item-wrap {
-  margin-bottom: 10px;
+.item-wrap /*, #portfolio-item-page .item-wrap*/ {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  margin-bottom:0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
 }
+
+  .effect-goliath {
+    margin:0;
+  }
+  
 #portfolio .grid,
 #blog .grid,
 #portfolio-item-page .grid {
