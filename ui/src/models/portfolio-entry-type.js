@@ -10,9 +10,9 @@ export default class PortfolioEntryType {
 
   static async getPortfolioEntryTypes(personId) {
     return [
+      new PortfolioEntryType('Client Samples', 'clients', null, null, 3),
       new PortfolioEntryType('BlabberJax Marketing Platform', 'blabberjax', null, null, 1),
       new PortfolioEntryType('App Development', 'app-development', null, null, 2),
-      new PortfolioEntryType('Client Samples', 'clients', null, null, 3),
       new PortfolioEntryType('Other Works', 'other-works', null, null, 4)
     ];
   }
