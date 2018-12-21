@@ -24,6 +24,7 @@ export class HorizontalBarChart {
     let chart = am4core.create(this.elementId, am4charts.XYChart);
 
     chart.colors.saturation = 0.4;
+    chart.interactionsEnabled = false;
 
     chart.data = this.data;
 
