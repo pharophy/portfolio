@@ -31,7 +31,7 @@ export default class PortfolioEntry {
           new Skill('Software Architect', '#/skill/software-architect', 'skill', 'Roles', null, 'flaticon-insignia', 200, 'This is an architect description', null, null, 4, 3),
           new Skill('Full Stack Engineer', '#/skill/full-stack-engineer', 'skill', 'Roles', null, 'flaticon-tool-1', 300, 'This is an engineer description', null, null, 4, 5),
 
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
@@ -68,7 +68,7 @@ export default class PortfolioEntry {
           '/assets/portfolio/blabberjax/content-planner/content-planner-automation.jpg'
         ],
         [
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
@@ -92,7 +92,7 @@ export default class PortfolioEntry {
           '/assets/portfolio/blabberjax/contacts/blabberjax-contacts.png'
         ],
         [
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
@@ -121,7 +121,7 @@ export default class PortfolioEntry {
           '/assets/portfolio/blabberjax/engage/engage-actions.jpg',      
         ],
         [
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
@@ -149,7 +149,7 @@ export default class PortfolioEntry {
           '/assets/portfolio/blabberjax/ecommerce/edit-product.png'
         ],
         [
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
@@ -174,7 +174,7 @@ export default class PortfolioEntry {
           '/assets/portfolio/blabberjax/reporting/google-analytics-charts.jpg'
         ],
         [
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
@@ -197,7 +197,7 @@ export default class PortfolioEntry {
           '/assets/portfolio/blabberjax/construction/skyfield-full.jpg'
         ],
         [
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
@@ -224,7 +224,7 @@ export default class PortfolioEntry {
           '/assets/portfolio/blabberjax/support-ews/support-update.jpg'
         ],
         [
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
@@ -294,7 +294,7 @@ export default class PortfolioEntry {
           '/assets/portfolio/apps/student-feedback/feedback-social-login.png'
         ],
         [
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
@@ -319,7 +319,7 @@ export default class PortfolioEntry {
           '/assets/portfolio/apps/training-calendar/testimonials.jpg'
         ],
         [
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
@@ -341,7 +341,7 @@ export default class PortfolioEntry {
           '/assets/portfolio/apps/snail-mail/go-bondex-full.jpg'
         ],
         [
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
@@ -363,7 +363,7 @@ export default class PortfolioEntry {
           '/assets/portfolio/apps/municipal-bonds/bondex-mb-full.jpg'
         ],
         [
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
@@ -389,7 +389,7 @@ export default class PortfolioEntry {
           '/assets/portfolio/apps/ssi-accounting-prjmgt/ssiacctdb-login.png'
         ],
         [
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
@@ -433,7 +433,7 @@ export default class PortfolioEntry {
           '/assets/portfolio/apps/dalegroup-news/dalegroup-newsletter-half.jpg'
         ],
         [
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
@@ -460,7 +460,7 @@ export default class PortfolioEntry {
           new Skill('Email Marketing', '#/skill/email-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 52),
           new Skill('Social Media Marketing', '#/skill/social-media-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 53),
           new Skill('Content Marketing', '#/skill/content-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 5, 54),
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
@@ -484,7 +484,7 @@ export default class PortfolioEntry {
           new Skill('Email Marketing', '#/skill/email-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 52),
           new Skill('Social Media Marketing', '#/skill/social-media-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 53),
           new Skill('Content Marketing', '#/skill/content-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 5, 54),
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
@@ -509,7 +509,7 @@ export default class PortfolioEntry {
           new Skill('Email Marketing', '#/skill/email-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 52),
           new Skill('Social Media Marketing', '#/skill/social-media-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 53),
           new Skill('Content Marketing', '#/skill/content-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 5, 54),
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
@@ -536,7 +536,7 @@ export default class PortfolioEntry {
           new Skill('Email Marketing', '#/skill/email-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 52),
           new Skill('Social Media Marketing', '#/skill/social-media-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 53),
           new Skill('Content Marketing', '#/skill/content-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 5, 54),
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
@@ -557,7 +557,7 @@ export default class PortfolioEntry {
         [
           new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
           new Skill('Content Marketing', '#/skill/content-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 5, 54),
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
@@ -578,7 +578,7 @@ export default class PortfolioEntry {
         [
           new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
           new Skill('Content Marketing', '#/skill/content-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 5, 54),
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
@@ -603,7 +603,7 @@ export default class PortfolioEntry {
           new Skill('Email Marketing', '#/skill/email-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 52),
           new Skill('Social Media Marketing', '#/skill/social-media-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 53),
           new Skill('Content Marketing', '#/skill/content-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 5, 54),
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
@@ -623,7 +623,7 @@ export default class PortfolioEntry {
         ],
         [
           new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
@@ -643,7 +643,7 @@ export default class PortfolioEntry {
         ],
         [
           new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
@@ -672,7 +672,7 @@ export default class PortfolioEntry {
           new Skill('Email Marketing', '#/skill/email-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 52),
           new Skill('Social Media Marketing', '#/skill/social-media-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 53),
           new Skill('Content Marketing', '#/skill/content-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 5, 54),
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
@@ -692,7 +692,7 @@ export default class PortfolioEntry {
         ],
         [
           new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
@@ -711,7 +711,7 @@ export default class PortfolioEntry {
           '/assets/portfolio/clients/sonny-chatrath/sonny-chatrath.jpg'
         ],
         [
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
@@ -733,7 +733,7 @@ export default class PortfolioEntry {
         [
           new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
           new Skill('Content Marketing', '#/skill/content-marketing', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 5, 54),
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
@@ -752,7 +752,7 @@ export default class PortfolioEntry {
           '/assets/portfolio/clients/closereachsolutions/close-reach-solutions.jpg'
         ],
         [
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
@@ -773,7 +773,7 @@ export default class PortfolioEntry {
         ],
         [
           new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
@@ -795,7 +795,7 @@ export default class PortfolioEntry {
           '/assets/portfolio/clients/mdpsystems/index4.jpg'
         ],
         [
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
@@ -815,7 +815,7 @@ export default class PortfolioEntry {
           '/assets/portfolio/clients/corpgraphicsolutions/corp-graphics-full.jpg'
         ],
         [
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
@@ -834,7 +834,7 @@ export default class PortfolioEntry {
           '/assets/portfolio/clients/vivamodernfurniture/viva-full.jpg'
         ],
         [
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
@@ -875,7 +875,7 @@ export default class PortfolioEntry {
           '/assets/portfolio/clients/millstonerivercreamery/MRC-shop-full_before.jpg'
         ],
         [
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
@@ -899,7 +899,7 @@ export default class PortfolioEntry {
           '/assets/portfolio/clients/sinisipaving/sinisi-gallery.jpg'
         ],
         [
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
@@ -921,7 +921,7 @@ export default class PortfolioEntry {
         ],
         [
           new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27)
@@ -940,7 +940,7 @@ export default class PortfolioEntry {
           '/assets/portfolio/clients/advancedbuiltstructures/abs-full.jpg'
         ],
         [
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
@@ -959,7 +959,7 @@ export default class PortfolioEntry {
           '/assets/portfolio/clients/fullcyclenutrition/templatev6.jpg'
         ],
         [
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
@@ -982,7 +982,7 @@ export default class PortfolioEntry {
           '/assets/portfolio/clients/awesomeitv/awesome-itv.jpg'
         ],
         [
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
@@ -1005,7 +1005,7 @@ export default class PortfolioEntry {
           '/assets/portfolio/apps/portfolio-site/portfolio-home.png'
         ],
         [
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
@@ -1030,7 +1030,7 @@ export default class PortfolioEntry {
         ],
         [
           new Skill('SEO', '#/skill/seo', 'skill', 'Marketing', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 51),
-          new Skill('C#', '/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
+          new Skill('C#', '#/skill/1/c-sharp', 'skill', 'ui-menu-color02', 1, 'This is a C# description.'),
           new Skill('HTML5', '#/skill/html5', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 16),
           new Skill('CSS3', '#/skill/css3', 'skill', 'Front-end', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 3, 26),
           new Skill('JavaScript', '#/skill/javascript', 'skill', 'Languages', null, 'flaticon-paper40', 400, 'This is a marketer description', null, null, 4, 27),
