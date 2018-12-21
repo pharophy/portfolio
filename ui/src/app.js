@@ -5,12 +5,12 @@ export class App {
     config.addPipelineStep('postcomplete', PostCompleteStep);
     config.map([
       //NOTE: must navigate to localhost:9000/#/person/1 to see home page
-      { route: '/', name: 'home',  moduleId: PLATFORM.moduleName('person/summary'),   title: 'About Me', layoutView: PLATFORM.moduleName('components/_shared/_layout.html') },
-      { route: ['/person/:id', '/person/:id/summary'],  moduleId: PLATFORM.moduleName('person/summary'),   title: 'About Me', layoutView: PLATFORM.moduleName('components/_shared/_layout.html')},
-      { route: 'person/:id/history',  moduleId: PLATFORM.moduleName('person/history'),   title: 'My Work History', layoutView: PLATFORM.moduleName('components/_shared/_layout.html') },
-      { route: 'person/:id/portfolio',  moduleId: PLATFORM.moduleName('person/portfolio'),   title: 'My Portfolio', layoutView: PLATFORM.moduleName('components/_shared/_layout.html') },
-      { route: 'person/:id/skills',  moduleId: PLATFORM.moduleName('person/skill'),   title: 'My Skills', layoutView: PLATFORM.moduleName('components/_shared/_layout.html') },
-      { route: 'person/:id/contact',  moduleId: PLATFORM.moduleName('person/contact'),   title: 'Contact Me', layoutView: PLATFORM.moduleName('components/_shared/_layout.html') },
+      { route: ['', '/'], name: 'home',  moduleId: PLATFORM.moduleName('person/summary'),   title: 'About', layoutView: PLATFORM.moduleName('components/_shared/_layout.html') },
+      { route: ['/person/:id', '/person/:id/summary'],  moduleId: PLATFORM.moduleName('person/summary'),   title: 'About', layoutView: PLATFORM.moduleName('components/_shared/_layout.html')},
+      { route: 'person/:id/history',  moduleId: PLATFORM.moduleName('person/history'),   title: 'Work History', layoutView: PLATFORM.moduleName('components/_shared/_layout.html') },
+      { route: 'person/:id/portfolio',  moduleId: PLATFORM.moduleName('person/portfolio'),   title: 'Portfolio', layoutView: PLATFORM.moduleName('components/_shared/_layout.html') },
+      { route: 'person/:id/skills',  moduleId: PLATFORM.moduleName('person/skill'),   title: 'Skills', layoutView: PLATFORM.moduleName('components/_shared/_layout.html') },
+      { route: 'person/:id/contact',  moduleId: PLATFORM.moduleName('person/contact'),   title: 'Contact', layoutView: PLATFORM.moduleName('components/_shared/_layout.html') },
       { route: 'person/:id/blog',  moduleId: PLATFORM.moduleName('person/blog'),   title: 'Recent Posts', layoutView: PLATFORM.moduleName('components/_shared/_layout.html')}//,
       //TODO: skill route { route: 'skill/:skill',  moduleId: PLATFORM.moduleName('skills/detail'),   title: 'Skill Details', layoutView: PLATFORM.moduleName('components/_shared/_layout.html')}
       //TODO: portfolio-entry route
