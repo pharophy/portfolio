@@ -12,6 +12,7 @@ export class Blog {
     this.person = {};
     this.blogEntries = [];
     this.loading = true;
+    this.navModel = {};
   }
 
   async activate() {
@@ -28,5 +29,10 @@ export class Blog {
       this.blogEntries = JSON.parse(sessionCache);
       this.loading = false;
     }
+    this.navModel.setTitle(`${this.person.firstName} ${this.person.lastName}'s Recent Posts | ${this.person.companyName}`);
+  }
+
+  activate(params, routeConfig) {
+    this.navModel = routeConfig.navModel;
   }
 }
