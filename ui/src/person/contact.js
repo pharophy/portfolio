@@ -7,7 +7,7 @@ export default class Contact {
     this.navModel = {};
   }
 
-  created() {
+  async bind(bindingContext, overrideContext) {
     this.person = this.personContext.getPerson(0);
     this.navModel.setTitle(`Contact ${this.person.firstName} ${this.person.lastName} | ${this.person.companyName}`);
   }

@@ -25,7 +25,7 @@ export default class Summary {
     this.navModel = {};
   }
 
-  async created() {
+  async bind(bindingContext, overrideContext) {
     this.person = this.personContext.getPerson(0);
     this.navigationLinks = this.navigationLinkContext.getNavigationLinks(this.person.id);
     //this.skills = _(this.navigationLinks).find(n => n.type === 'skill');

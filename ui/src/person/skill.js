@@ -18,7 +18,7 @@ export default class Skill {
     this.navModel = {};
   }
 
-  created() {
+  async bind(bindingContext, overrideContext) {
     this.person = this.personContext.getPerson(0);
     const skillSet = this.skillContext.getSkills(this.person.id);
     this.skillGroups = _(skillSet).groupBy('subtype').value();

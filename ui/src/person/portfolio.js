@@ -15,7 +15,7 @@ export default class Portfolio {
     this.navModel = {};
   }
 
-  async created() {
+  async bind(bindingContext, overrideContext) {
     this.person = this.personContext.getPerson(0);
     this.portfolioEntries = await this.portfolioContext.getPortfolioEntries(this.person.id);
     this.portfolioEntryTypes = await this.portfolioEntryTypeContext.getPortfolioEntryTypes(this.person.id);

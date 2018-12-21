@@ -15,7 +15,7 @@ export class Blog {
     this.navModel = {};
   }
 
-  async activate() {
+  async bind(bindingContext, overrideContext) {
     this.person = this.personContext.getPerson(0);
     let sessionCache = sessionStorage.getItem('blogEntries');
     if (!sessionCache) {

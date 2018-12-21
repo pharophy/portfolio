@@ -15,7 +15,7 @@ export default class History {
     this.navModel = {};
   }
 
-  created() {
+  async bind(bindingContext, overrideContext) {
     this.person = this.personContext.getPerson(0);
     this.navigationLinks = this.navigationLinkContext.getNavigationLinks(this.person.id);
     this.resumeLink = _(this.navigationLinks).find(n => n.type === 'resume');
