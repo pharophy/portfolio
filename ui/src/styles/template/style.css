@@ -1452,7 +1452,7 @@ textarea {
   line-height: 2.7em;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
+  /*text-overflow: ellipsis;*/
 }
 #top-navigation .ident .vc-name .position p {
   font-size: 12px;
@@ -3288,6 +3288,7 @@ section h3 {
 /* ------------------------------------ Resume Page */
 #resume #m-details p {
   margin: 0 0 5px 0;
+  text-align: justify;
 }
 #resume #m-details i::before {
   font-size: 32px;
@@ -4169,10 +4170,10 @@ footer.light .copyrights {
     height: 40px;
   }
 
-  #top-navigation .ident .vc-name .position .pdf,
+  /*#top-navigation .ident .vc-name .position .pdf,
   #top-navigation .ident .vc-name .name .name-pdf {
     display: none;
-  }
+  }*/
 
   .owl-carousel .feat-wrapper {
     display: none;
@@ -4262,6 +4263,7 @@ footer.light .copyrights {
 
   footer .cv-link a {
     display: block;
+    padding: 4px;
   }
 
   .masonry-row {
@@ -4357,6 +4359,7 @@ footer.light .copyrights {
   #page-title p {
     line-height: 1.5em;
   }
+
   #page-title h2 {
     font-size: 32px;
   }
@@ -4492,6 +4495,10 @@ footer.light .copyrights {
   font-size: 1.1rem;
 }
 
+#page-title p, #resume p {
+  text-align: justify;
+}
+
 /* custom responsive section */
 @media (max-width: 992px) {
   /* blogs */
@@ -4507,4 +4514,89 @@ footer.light .copyrights {
   }
 }
 
+
+/* fix issue where boxes on summary aren't showing up well on mobile in horizontal mode */
+@media (max-width: 990px) and (min-width: 767px) {
+  /* blogs */
+  #details, #personal, #circle-skills {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #top-navigation .menuitem {
+    min-height: auto;
+  }
+
+  #top-navigation .menuitem a {
+    padding: 10px 0px;
+  }
+    #top-navigation .menuitem a span {
+      font-size:12px;
+    }
+
+  .photo-primary {
+    max-height:290px;
+  }
+
+  #top-navigation .ident .vc-name .name .name-pdf,
+  #top-navigation .ident .vc-name .position .pdf {
+    min-height: auto;
+  } 
+  
+  #top-navigation .ident .vc-name .name .name-title {
+    min-height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #top-navigation .ident .vc-name .position h2 {
+    font-size: 20px;
+    line-height: 3.2em;
+  }
+
+  #top-navigation .ident .vc-name .position .position-title {
+    padding:5px 15px;
+    min-height: auto;
+  }
+}
+
+@media (max-width: 490px) {
+  #top-navigation .ident .vc-name .position h2 {
+    font-size:18px;
+  }
+}
+
+@media (max-width: 400px) {
+  #top-navigation .ident .vc-name .position .position-title {
+    padding: 5px 15px !important;
+  }
+  #top-navigation .ident .vc-name .position h2 {
+    font-size:16px;
+  }
+
+  
+}
+
+@media (max-width: 820px) {
+  .jumbotron .badge {
+    display: block;
+    text-align: left !important;
+  }
+}
+
+@media (max-width: 767px) {
+  #top-navigation .ident .vc-name .name .name-pdf,
+  #top-navigation .ident .vc-name .position .pdf {
+    display:none !important;
+  }
+
+  #contact-form label {
+    display: block;
+    width: 100%;
+  }
+  
+  footer.dark .newsletter-btn {
+    width: auto;
+  }
+}
 /*# sourceMappingURL=style.css.map */
