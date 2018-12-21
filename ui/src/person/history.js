@@ -12,6 +12,7 @@ export default class History {
     this.navigationLinks = [];
     this.resumeLink = {};
     this.positions = [];
+    this.navModel = {};
   }
 
   created() {
@@ -19,5 +20,10 @@ export default class History {
     this.navigationLinks = this.navigationLinkContext.getNavigationLinks(this.person.id);
     this.resumeLink = _(this.navigationLinks).find(n => n.type === 'resume');
     this.positions = this.positionContext.getPositions(this.person.id);
+    this.navModel.setTitle(`${this.person.firstName} ${this.person.lastName}'s History | ${this.person.companyName}`);
+  }
+
+  activate(params, routeConfig) {
+    this.navModel = routeConfig.navModel;
   }
 }

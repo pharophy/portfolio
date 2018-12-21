@@ -12,12 +12,14 @@ export default class Portfolio {
     this.person = {};
     this.portfolioEntries = [];
     this.portfolioEntryTypes = [];
+    this.navModel = {};
   }
 
   async created() {
     this.person = this.personContext.getPerson(0);
     this.portfolioEntries = await this.portfolioContext.getPortfolioEntries(this.person.id);
     this.portfolioEntryTypes = await this.portfolioEntryTypeContext.getPortfolioEntryTypes(this.person.id);
+    this.navModel.setTitle(`${this.person.firstName} ${this.person.lastName}'s Recent Work | ${this.person.companyName}`);
   }
 
   async attached() {
@@ -51,5 +53,9 @@ export default class Portfolio {
         window.$grid.layout();
       });
     });
+  }
+
+  activate(params, routeConfig) {
+    this.navModel = routeConfig.navModel;
   }
 }

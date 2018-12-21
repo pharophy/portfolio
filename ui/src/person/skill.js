@@ -15,11 +15,17 @@ export default class Skill {
       { value: 4, endValue: null, text: 'Advanced', color: '#1C6015' },
       { value: 4.9, endValue: null, text: 'Guru', color: '#0B3706' }
     ];
+    this.navModel = {};
   }
 
   created() {
     this.person = this.personContext.getPerson(0);
     const skillSet = this.skillContext.getSkills(this.person.id);
     this.skillGroups = _(skillSet).groupBy('subtype').value();
+    this.navModel.setTitle(`${this.person.firstName} ${this.person.lastName}'s Skills | ${this.person.companyName}`);
+  }
+
+  activate(params, routeConfig) {
+    this.navModel = routeConfig.navModel;
   }
 }

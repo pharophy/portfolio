@@ -22,6 +22,7 @@ export default class Summary {
     this.website = {};
     this.positions = [];
     this.portfolioEntries = [];
+    this.navModel = {};
   }
 
   async created() {
@@ -47,15 +48,10 @@ export default class Summary {
       )
       .take(3)
       .value();
+    this.navModel.setTitle(`About ${this.person.firstName} ${this.person.lastName} | ${this.person.companyName}`);
   }
 
   activate(params, routeConfig) {
-    /*return this.api.pull<Product>([params.id]).then((items) => {
-      let item = items.find((item) => item.id == params.id);
-      if (item) {
-          routeConfig.navModel.setTitle(item.name);
-      }
-    }*/
-    //routeConfig.navModel.setTitle(`${this.person.firstName} ${this.pereson.lastName}`);
+    this.navModel = routeConfig.navModel;
   }
 }

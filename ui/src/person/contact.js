@@ -4,10 +4,12 @@ export default class Contact {
   constructor() {
     this.personContext = personContext;
     this.person = {};
+    this.navModel = {};
   }
 
   created() {
     this.person = this.personContext.getPerson(0);
+    this.navModel.setTitle(`Contact ${this.person.firstName} ${this.person.lastName} | ${this.person.companyName}`);
   }
 
   sendMessage() {
@@ -50,5 +52,9 @@ export default class Contact {
       //BlabberJax.Engage.DisplayMessage(n.responseJSON.d, t);
       //$(".bjx-engage-processing").css("display", "none")
     });
+  }
+
+  activate(params, routeConfig) {
+    this.navModel = routeConfig.navModel;
   }
 }
