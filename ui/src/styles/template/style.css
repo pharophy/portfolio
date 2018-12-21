@@ -2581,6 +2581,10 @@ figure.effect-goliath:hover p {
 #portfolio2 .port-filter-light ul li a {
   background: #f7f7f7;
   color: #3f3f3f;
+  display: block;
+  margin-bottom: .5em;
+  margin-bottom: 1em;
+  margin-right: 5px;
 }
 #portfolio2 .port-filter-light ul li a:after {
   border-color: #fff transparent;
@@ -4196,11 +4200,6 @@ footer.light .copyrights {
   .cd-intro {
     width: 100% !important;
     max-width: 768px;
-  }
-
-  .port-filter ul li {
-    display: block;
-    margin-bottom: 24px;
   }
 
   #homesection .m-details .quote {
