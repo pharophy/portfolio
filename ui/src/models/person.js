@@ -1,8 +1,9 @@
 export default class Person {
-  constructor(firstName, lastName, imageUrl, title, subtitle, address, phone, email, scheduleUrl, resumeIntro, resumeSummary, id = 0) {
+  constructor(firstName, lastName, companyName, imageUrl, title, subtitle, address, phone, email, scheduleUrl, resumeIntro, resumeSummary, id = 0) {
     this.id = id;
     this.firstName = firstName;
     this.lastName = lastName;
+    this.companyName = companyName;
     this.imageUrl = imageUrl;
     this.title = title;
     this.subtitle = subtitle;
@@ -18,6 +19,7 @@ export default class Person {
     return new Person(
       'Shawn',
       'Souto',
+      'SSI Design',
       'shawn-souto.jpg',
       'Full Stack Engineer, Architect, & Marketer',
       'Highly motivated, curious, and passionate about success.',
