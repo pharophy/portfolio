@@ -2,12 +2,17 @@
     <require from='resources/scriptinjector'></require>
     <scriptinjector url="/assets/headlines/headlines.min.js"></scriptinjector>
     <header>
-        <section id="top-navigation" class="container-fluid nopadding">
-            <div class="row nopadding ident ui-bg-color01">
+        <section id="top-navigation" class="container-fluid nopadding" itemscope itemtype="http://schema.org/Person">
+            <div class="row nopadding ident ui-bg-color01" itemprop="mainEntityOfPage">
                 <!-- Photo -->
                 <a href="#/person/${person.id}" class="col-md-4 nopadding">
                     <div class=" vc-photo photo-primary">
-                        <img src.bind="person.imageUrl" title.bind="person.firstName" />
+                        <img itemprop="url" src.bind="person.imageUrl" title.bind="person.firstName" />
+                        <div itemprop="image" itemscope="" itemtype="http://schema.org/ImageObject">
+                            <meta id="mtaImgBanner" itemprop="url" content="https://www.designbyssi.com/${person.imageUrl}">
+                            <meta id="mImgHeight" itemprop="height" content="900">
+                            <meta id="mImgWidth" itemprop="width" content="795">
+                        </div>
                     </div>
                 </a>
                 <!-- /Photo -->
@@ -15,7 +20,8 @@
                     <!-- Name-Position -->
                     <div class="row nopadding name">
                         <div class="col-md-10 name-title">
-                            <h1 class="font-accident-two-extralight">${person.firstName} ${person.lastName}</h1>
+                            <h1 class="font-accident-two-extralight" itemprop="name">${person.firstName} ${person.lastName}</h1>
+                            <meta id="mDescrip" itemprop="description" content.bind="person.resumeSummary">
                         </div>
                         <div class="col-md-2 nopadding name-pdf">
                             <a href.bind="resumeLink.url" class="hvr-sweep-to-right">
